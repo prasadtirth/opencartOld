@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;testCases.TC_011__Checkout&apos; to &apos;TC_011_Checkout&apos;&#x0D;&#x0A;- Original project: &apos;opencartv4&apos;&#x0D;&#x0A;- Original element: &apos;testCases.TC_011__Checkout&apos;&#x0D;&#x0A;- Renamed element: &apos;testCases.TC_011_Checkout&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TC_011__Checkout&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;testCases{TC_011__Checkout.java[TC_011__Checkout" matchStrategy="1" name="TC_011_Checkout" qualified="false" references="true" similarDeclarations="false" stamp="1660218279070" textual="false" version="1.0"/>
+</session>
