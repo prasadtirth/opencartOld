@@ -1,0 +1,605 @@
+10:12:47.645 [main] INFO  testCases.TC_002_Login -  Finished TC_002_Login 
+10:12:51.076 [main] INFO  testCases.TC_003_LoginDDT - Launched chrome Browser
+10:12:58.624 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+10:13:01.744 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+10:13:11.963 [main] FATAL testCases.TC_003_LoginDDT - Login Failed 
+10:13:11.965 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+10:13:12.633 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+10:13:12.747 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
+10:13:13.400 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
+10:13:17.144 [main] INFO  testCases.TC_003_LoginDDT - Provided Email 
+10:13:17.293 [main] INFO  testCases.TC_003_LoginDDT - Provided Password 
+10:13:18.469 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+10:13:28.502 [main] ERROR testCases.TC_003_LoginDDT - Login Failed 
+10:13:28.502 [main] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
+10:13:28.504 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+10:13:29.376 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+10:13:29.481 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
+10:13:31.099 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
+10:13:31.288 [main] INFO  testCases.TC_003_LoginDDT - Provided Email 
+10:13:31.430 [main] INFO  testCases.TC_003_LoginDDT - Provided Password 
+10:13:32.812 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+10:13:42.833 [main] ERROR testCases.TC_003_LoginDDT - Login Failed 
+10:13:42.833 [main] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
+10:13:42.834 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+10:13:43.603 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+10:13:43.696 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
+10:13:44.311 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
+10:13:44.534 [main] INFO  testCases.TC_003_LoginDDT - Provided Email 
+10:13:44.672 [main] INFO  testCases.TC_003_LoginDDT - Provided Password 
+10:13:45.343 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+10:13:55.393 [main] ERROR testCases.TC_003_LoginDDT - Login Failed 
+10:13:55.393 [main] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
+10:14:01.009 [main] INFO  testCases.TC_004_Search - Launched chrome Browser
+10:14:01.019 [main] INFO  testCases.TC_004_Search -  Starting TC_004_Search 
+10:14:09.001 [main] INFO  testCases.TC_004_Search - Home Page Displayed 
+10:14:11.268 [main] INFO  testCases.TC_004_Search - Enter any Product
+10:14:28.416 [main] ERROR testCases.TC_004_Search - Search Success 
+10:14:28.564 [main] INFO  testCases.TC_004_Search -  Finished TC_004Search 
+10:14:32.009 [main] INFO  testCases.TC_005_Forgot_Password - Launched chrome Browser
+10:14:32.023 [main] INFO  testCases.TC_005_Forgot_Password - Starting TC_005_ForgotPassword
+10:14:40.640 [main] INFO  testCases.TC_005_Forgot_Password - Home Page Displayed 
+10:14:40.888 [main] INFO  testCases.TC_005_Forgot_Password - Clicked on My Account 
+10:14:43.032 [main] INFO  testCases.TC_005_Forgot_Password - Clicked on Login 
+10:14:45.235 [main] INFO  testCases.TC_005_Forgot_Password - Provided Email 
+10:14:52.574 [main] INFO  testCases.TC_005_Forgot_Password - Provided confirmation email
+10:15:01.236 [main] INFO  testCases.TC_005_Forgot_Password - Finished TC_009_ForgotPassword
+10:15:12.212 [main] INFO  testCases.TC_006_AddToCart - Launched chrome Browser
+10:15:12.220 [main] INFO  testCases.TC_006_AddToCart - Starting TC_006_Addcart
+10:15:12.220 [main] INFO  testCases.TC_006_AddToCart - Starting TC_006_AddToCart
+10:15:22.472 [main] INFO  testCases.TC_006_AddToCart - Home Page Displayed 
+10:15:25.778 [main] INFO  testCases.TC_006_AddToCart - Enter any Product
+10:15:34.560 [main] INFO  testCases.TC_006_AddToCart - product displayed on HomePage
+10:15:34.654 [main] INFO  testCases.TC_006_AddToCart - product added to cart
+10:15:37.186 [main] INFO  testCases.TC_006_AddToCart - Search page is Success 
+10:15:37.186 [main] INFO  testCases.TC_006_AddToCart - Finished TC_006_AddToCart
+10:15:40.967 [main] INFO  testCases.TC_007_CompareProduct - Launched chrome Browser
+10:15:40.972 [main] INFO  testCases.TC_007_CompareProduct - Strating TC_007_ProductCompare
+10:15:47.325 [main] INFO  testCases.TC_007_CompareProduct - Home Page Displayed 
+10:15:50.603 [main] INFO  testCases.TC_007_CompareProduct - Enter any Product
+10:15:55.610 [main] INFO  testCases.TC_007_CompareProduct - product displayed on HomePage
+10:15:58.724 [main] INFO  testCases.TC_007_CompareProduct - products comparing
+10:16:15.821 [main] INFO  testCases.TC_008_ProductDisplayPage - Launched chrome Browser
+10:16:15.828 [main] INFO  testCases.TC_008_ProductDisplayPage - Starting TC_008_ProductDisplayPage
+10:16:28.281 [main] INFO  testCases.TC_008_ProductDisplayPage - Home Page Displayed 
+10:16:30.872 [main] INFO  testCases.TC_008_ProductDisplayPage - Enter any Product
+10:16:34.705 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on the search button
+10:16:50.918 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on the image
+10:16:53.390 [main] INFO  testCases.TC_008_ProductDisplayPage - click the Product
+10:16:55.476 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on right side arrow
+10:16:57.584 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on right side arrow
+10:16:59.685 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on left side arrow
+10:17:01.757 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on left side arrow
+10:17:03.862 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on esc Button
+10:17:03.977 [main] INFO  testCases.TC_008_ProductDisplayPage - click the Product Review
+10:17:07.130 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on the Continue Button
+10:17:08.975 [main] INFO  testCases.TC_001_AccountRegistrationPage - Launched chrome Browser
+10:17:09.013 [main] INFO  testCases.TC_001_AccountRegistrationPage - Strating TC_001_AccountRegistration
+10:17:09.202 [main] INFO  testCases.TC_008_ProductDisplayPage - ProductDisplayPage  success 
+10:17:09.202 [main] INFO  testCases.TC_008_ProductDisplayPage -  Finished TC_008_ProductDisplayPage
+10:17:16.919 [main] INFO  testCases.TC_001_AccountRegistrationPage - Home Page Displayed 
+10:17:17.247 [main] INFO  testCases.TC_001_AccountRegistrationPage - Clicked on My Account 
+10:17:19.235 [main] INFO  testCases.TC_001_AccountRegistrationPage - Clicked on Register 
+10:17:19.393 [main] INFO  testCases.TC_001_AccountRegistrationPage - Provided First Name 
+10:17:19.534 [main] INFO  testCases.TC_001_AccountRegistrationPage - Provided Last Name 
+10:17:19.884 [main] INFO  testCases.TC_001_AccountRegistrationPage - Provided Email 
+10:17:20.018 [main] INFO  testCases.TC_001_AccountRegistrationPage - Provided Telephone 
+10:17:20.142 [main] INFO  testCases.TC_001_AccountRegistrationPage - Provided Password 
+10:17:20.270 [main] INFO  testCases.TC_001_AccountRegistrationPage - Provided Confrmed Password 
+10:17:20.356 [main] INFO  testCases.TC_001_AccountRegistrationPage - Set Privacy Policy 
+10:17:24.864 [main] INFO  testCases.TC_001_AccountRegistrationPage - Clicked on Continue 
+10:17:29.928 [main] INFO  testCases.TC_001_AccountRegistrationPage - Account Registration Success 
+10:17:29.931 [main] INFO  testCases.TC_001_AccountRegistrationPage - Finished TC_001_AccountRegistration
+10:17:49.238 [main] INFO  testCases.TC_002_Login - Launched chrome Browser
+10:17:49.246 [main] INFO  testCases.TC_002_Login -  Starting TC_002_Login 
+10:17:52.552 [main] INFO  testCases.TC_009_WishList - Launched chrome Browser
+10:17:52.560 [main] INFO  testCases.TC_009_WishList - Starting TC_009_WishList
+10:18:02.029 [main] INFO  testCases.TC_002_Login - Home Page Displayed 
+10:18:02.041 [main] INFO  testCases.TC_009_WishList - Home Page Displayed 
+10:18:02.592 [main] INFO  testCases.TC_002_Login - Clicked on My Account 
+10:18:03.699 [main] INFO  testCases.TC_002_Login - Clicked on Login 
+10:18:03.957 [main] INFO  testCases.TC_002_Login - Provided Email 
+10:18:04.116 [main] INFO  testCases.TC_002_Login - Provided Password 
+10:18:04.493 [main] INFO  testCases.TC_009_WishList - Enter any Product
+10:18:06.437 [main] INFO  testCases.TC_002_Login - Clicked on Login
+10:18:06.561 [main] INFO  testCases.TC_002_Login - Login Success 
+10:18:06.561 [main] INFO  testCases.TC_002_Login -  Finished TC_002_Login 
+10:18:08.262 [main] INFO  testCases.TC_009_WishList - clicked on the search button
+10:18:14.346 [main] INFO  testCases.TC_003_LoginDDT - Launched chrome Browser
+10:18:18.026 [main] INFO  testCases.TC_009_WishList - clicked on the searched image
+10:18:20.101 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+10:18:21.144 [main] INFO  testCases.TC_009_WishList - Clicked on the WishList Symbol
+10:18:23.783 [main] INFO  testCases.TC_009_WishList - Clicked on MyAccount
+10:18:28.941 [main] INFO  testCases.TC_009_WishList - Clicked on the Login
+10:18:29.130 [main] INFO  testCases.TC_009_WishList - Email is provided
+10:18:29.251 [main] INFO  testCases.TC_009_WishList - Password is Provided
+10:18:30.565 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+10:18:30.826 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
+10:18:32.292 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
+10:18:32.344 [main] INFO  testCases.TC_009_WishList - Clicked on Login Button
+10:18:32.533 [main] INFO  testCases.TC_003_LoginDDT - Provided Email 
+10:18:32.684 [main] INFO  testCases.TC_003_LoginDDT - Provided Password 
+10:18:37.062 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+10:18:37.125 [main] INFO  testCases.TC_003_LoginDDT - Login Success 
+10:18:39.265 [main] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
+10:18:39.267 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+10:18:39.947 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+10:18:40.067 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
+10:18:41.410 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
+10:18:41.583 [main] INFO  testCases.TC_003_LoginDDT - Provided Email 
+10:18:41.735 [main] INFO  testCases.TC_003_LoginDDT - Provided Password 
+10:18:42.371 [main] INFO  testCases.TC_009_WishList - Search Success
+10:18:42.372 [main] INFO  testCases.TC_009_WishList - TC_009_WishList Complited
+10:18:42.823 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+10:18:51.178 [main] INFO  testCases.TC_010_ShoppingCart - Launched chrome Browser
+10:18:51.181 [main] INFO  testCases.TC_010_ShoppingCart - Starting TC_010_ShoppingCart
+10:18:52.881 [main] ERROR testCases.TC_003_LoginDDT - Login Failed 
+10:18:52.881 [main] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
+10:18:52.882 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+10:18:54.490 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+10:18:54.589 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
+10:18:55.966 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
+10:18:56.197 [main] INFO  testCases.TC_003_LoginDDT - Provided Email 
+10:18:56.388 [main] INFO  testCases.TC_003_LoginDDT - Provided Password 
+10:18:59.142 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+10:19:01.482 [main] INFO  testCases.TC_010_ShoppingCart - Home Page Displayed 
+10:19:01.862 [main] INFO  testCases.TC_010_ShoppingCart - Enter Any Product
+10:19:04.134 [main] INFO  testCases.TC_010_ShoppingCart - Clicked OnThe Search Button Icon
+10:19:09.195 [main] ERROR testCases.TC_003_LoginDDT - Login Failed 
+10:19:09.196 [main] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
+10:19:09.197 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+10:19:09.700 [main] INFO  testCases.TC_010_ShoppingCart - clicked On The Searched Product
+10:19:10.108 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+10:19:10.267 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
+10:19:10.799 [main] INFO  testCases.TC_010_ShoppingCart - Clicked On Add To Cart
+10:19:14.190 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
+10:19:14.374 [main] INFO  testCases.TC_003_LoginDDT - Provided Email 
+10:19:14.499 [main] INFO  testCases.TC_003_LoginDDT - Provided Password 
+10:19:14.576 [main] INFO  testCases.TC_010_ShoppingCart - Clicked On Shop Cart
+10:19:18.102 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+10:19:28.162 [main] ERROR testCases.TC_003_LoginDDT - Login Failed 
+10:19:28.162 [main] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
+10:19:36.051 [main] INFO  testCases.TC_004_Search - Launched chrome Browser
+10:19:36.062 [main] INFO  testCases.TC_004_Search -  Starting TC_004_Search 
+10:19:36.174 [main] INFO  testCases.TC_012_MyAccount - Launched chrome Browser
+10:19:36.177 [main] INFO  testCases.TC_012_MyAccount - Starting TC_012_MyAccount
+10:19:53.801 [main] INFO  testCases.TC_004_Search - Home Page Displayed 
+10:19:54.398 [main] INFO  testCases.TC_012_MyAccount - Home Page Displayed 
+10:19:54.689 [main] INFO  testCases.TC_012_MyAccount - Clicked On The My Account
+10:19:56.604 [main] INFO  testCases.TC_004_Search - Enter any Product
+10:19:58.718 [main] INFO  testCases.TC_012_MyAccount - Clicked On the Login
+10:20:01.030 [main] INFO  testCases.TC_012_MyAccount - Provided Email Address 
+10:20:03.162 [main] INFO  testCases.TC_012_MyAccount - Provided Password
+10:20:06.668 [main] INFO  testCases.TC_012_MyAccount - Clickded On THe Login Button
+10:20:08.763 [main] INFO  testCases.TC_012_MyAccount - Clicked On The My Account
+10:20:11.567 [main] INFO  testCases.TC_012_MyAccount - Clicked on The Logout
+10:20:11.901 [main] ERROR testCases.TC_004_Search - Search Success 
+10:20:12.334 [main] INFO  testCases.TC_004_Search -  Finished TC_004Search 
+10:20:16.486 [main] INFO  testCases.TC_012_MyAccount - Clicked On The Footer Section Text
+10:20:16.709 [main] INFO  testCases.TC_005_Forgot_Password - Launched chrome Browser
+10:20:16.719 [main] INFO  testCases.TC_005_Forgot_Password - Starting TC_005_ForgotPassword
+10:20:24.466 [main] INFO  testCases.TC_013_MyAccountInformation - Launched chrome Browser
+10:20:24.484 [main] INFO  testCases.TC_013_MyAccountInformation - Starting TC_013_MyAccountInformation
+10:20:29.610 [main] INFO  testCases.TC_005_Forgot_Password - Home Page Displayed 
+10:20:29.872 [main] INFO  testCases.TC_005_Forgot_Password - Clicked on My Account 
+10:20:31.907 [main] INFO  testCases.TC_005_Forgot_Password - Clicked on Login 
+10:20:31.987 [main] INFO  testCases.TC_013_MyAccountInformation - Home Page Displayed 
+10:20:32.324 [main] INFO  testCases.TC_013_MyAccountInformation - Clicked On The My Account
+10:20:34.451 [main] INFO  testCases.TC_005_Forgot_Password - Provided Email 
+10:20:35.241 [main] INFO  testCases.TC_013_MyAccountInformation - Clicked On the Login
+10:20:37.458 [main] INFO  testCases.TC_013_MyAccountInformation - Provided Email Address 
+10:20:39.604 [main] INFO  testCases.TC_013_MyAccountInformation - Provided Password
+10:20:41.888 [main] INFO  testCases.TC_005_Forgot_Password - Provided confirmation email
+10:20:42.773 [main] INFO  testCases.TC_013_MyAccountInformation - Clickded On THe Login Button
+10:20:46.056 [main] INFO  testCases.TC_013_MyAccountInformation - Clicked On The My Account Information
+10:20:46.847 [main] INFO  testCases.TC_005_Forgot_Password - Finished TC_009_ForgotPassword
+10:20:48.236 [main] INFO  testCases.TC_013_MyAccountInformation - Clicked On The Edit Telephpne
+10:20:50.243 [main] INFO  testCases.TC_013_MyAccountInformation - Finished TC_013_MyAccountInformation 
+10:20:54.380 [main] INFO  testCases.TC_006_AddToCart - Launched chrome Browser
+10:20:54.384 [main] INFO  testCases.TC_006_AddToCart - Starting TC_006_Addcart
+10:20:54.384 [main] INFO  testCases.TC_006_AddToCart - Starting TC_006_AddToCart
+10:20:56.664 [main] INFO  testCases.TC_014_ChangePassword - Launched chrome Browser
+10:20:56.668 [main] INFO  testCases.TC_014_ChangePassword - Starting TC_013_MyAccountInformation
+10:21:09.039 [main] INFO  testCases.TC_006_AddToCart - Home Page Displayed 
+10:21:09.052 [main] INFO  testCases.TC_014_ChangePassword - Home Page Displayed 
+10:21:09.371 [main] INFO  testCases.TC_014_ChangePassword - Clicked On The My Account
+10:21:12.463 [main] INFO  testCases.TC_014_ChangePassword - Clicked On the Login
+10:21:12.529 [main] INFO  testCases.TC_006_AddToCart - Enter any Product
+10:21:14.720 [main] INFO  testCases.TC_014_ChangePassword - Provided Email Address 
+10:21:16.866 [main] INFO  testCases.TC_014_ChangePassword - Provided Password
+10:21:22.307 [main] INFO  testCases.TC_006_AddToCart - product displayed on HomePage
+10:21:22.357 [main] INFO  testCases.TC_014_ChangePassword - Clickded On THe Login Button
+10:21:22.413 [main] INFO  testCases.TC_006_AddToCart - product added to cart
+10:21:24.853 [main] INFO  testCases.TC_006_AddToCart - Search page is Success 
+10:21:24.853 [main] INFO  testCases.TC_006_AddToCart - Finished TC_006_AddToCart
+10:21:31.851 [main] INFO  testCases.TC_014_ChangePassword - Clicked on The Change Password
+10:21:34.196 [main] INFO  testCases.TC_014_ChangePassword - Clicked on the password
+10:21:34.252 [main] INFO  testCases.TC_007_CompareProduct - Launched chrome Browser
+10:21:34.256 [main] INFO  testCases.TC_007_CompareProduct - Strating TC_007_ProductCompare
+10:21:36.339 [main] INFO  testCases.TC_014_ChangePassword - Clicked on the confpassword
+10:21:40.851 [main] INFO  testCases.TC_014_ChangePassword - Clicked On The Continue Button
+10:21:45.044 [main] INFO  testCases.TC_007_CompareProduct - Home Page Displayed 
+10:21:48.463 [main] INFO  testCases.TC_007_CompareProduct - Enter any Product
+10:21:48.972 [main] INFO  testCases.TC_015_AddressBook - Launched chrome Browser
+10:21:48.978 [main] INFO  testCases.TC_015_AddressBook - Starting TC_013_MyAccountInformation
+10:22:00.918 [main] INFO  testCases.TC_015_AddressBook - Home Page Displayed 
+10:22:01.152 [main] INFO  testCases.TC_015_AddressBook - Clicked On The My Account
+10:22:01.754 [main] INFO  testCases.TC_007_CompareProduct - product displayed on HomePage
+10:22:04.687 [main] INFO  testCases.TC_015_AddressBook - Clicked On the Login
+10:22:04.870 [main] INFO  testCases.TC_007_CompareProduct - products comparing
+10:22:06.880 [main] INFO  testCases.TC_015_AddressBook - Provided Email Address 
+10:22:09.016 [main] INFO  testCases.TC_015_AddressBook - Provided Password
+10:22:12.655 [main] INFO  testCases.TC_015_AddressBook - Clickded On THe Login Button
+10:22:16.807 [main] INFO  testCases.TC_015_AddressBook - Clicked On The Address Book
+10:22:21.956 [main] INFO  testCases.TC_008_ProductDisplayPage - Launched chrome Browser
+10:22:21.966 [main] INFO  testCases.TC_008_ProductDisplayPage - Starting TC_008_ProductDisplayPage
+10:22:23.840 [main] INFO  testCases.TC_015_AddressBook - Clicked On The New Address Button
+10:22:30.880 [main] INFO  testCases.TC_015_AddressBook - Clicked On The BAck Button
+10:22:35.535 [main] INFO  testCases.TC_008_ProductDisplayPage - Home Page Displayed 
+10:22:37.895 [main] INFO  testCases.TC_008_ProductDisplayPage - Enter any Product
+10:22:44.041 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on the search button
+10:22:52.571 [main] INFO  testCases.TC_016_Order_History - Launched chrome Browser
+10:22:52.577 [main] INFO  testCases.TC_016_Order_History - Starting TC_016_MyAccountInformation
+10:22:59.253 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on the image
+10:23:00.485 [main] INFO  testCases.TC_016_Order_History - Home Page Displayed 
+10:23:01.050 [main] INFO  testCases.TC_016_Order_History - Clicked On The My Account
+10:23:01.443 [main] INFO  testCases.TC_008_ProductDisplayPage - click the Product
+10:23:03.752 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on right side arrow
+10:23:04.021 [main] INFO  testCases.TC_016_Order_History - Clicked On the Login
+10:23:05.894 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on right side arrow
+10:23:06.921 [main] INFO  testCases.TC_016_Order_History - Provided Email Address 
+10:23:07.989 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on left side arrow
+10:23:09.962 [main] INFO  testCases.TC_016_Order_History - Provided Password
+10:23:10.061 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on left side arrow
+10:23:12.408 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on esc Button
+10:23:12.743 [main] INFO  testCases.TC_008_ProductDisplayPage - click the Product Review
+10:23:15.102 [main] INFO  testCases.TC_016_Order_History - Clickded On THe Login Button
+10:23:16.481 [main] INFO  testCases.TC_008_ProductDisplayPage - clicked on the Continue Button
+10:23:18.548 [main] INFO  testCases.TC_008_ProductDisplayPage - ProductDisplayPage  success 
+10:23:18.548 [main] INFO  testCases.TC_008_ProductDisplayPage -  Finished TC_008_ProductDisplayPage
+10:23:22.467 [main] INFO  testCases.TC_016_Order_History - Clicked On the Order History
+10:23:26.933 [main] INFO  testCases.TC_016_Order_History - Clicked On The Continue Button
+10:23:44.902 [main] INFO  testCases.TC_017_Downloads - Launched chrome Browser
+10:23:44.909 [main] INFO  testCases.TC_017_Downloads - Starting TC_016_MyAccountInformation
+10:23:56.918 [main] INFO  testCases.TC_017_Downloads - Home Page Displayed 
+10:23:57.176 [main] INFO  testCases.TC_017_Downloads - Clicked On The My Account
+10:23:59.946 [main] INFO  testCases.TC_017_Downloads - Clicked On the Login
+10:24:02.233 [main] INFO  testCases.TC_017_Downloads - Provided Email Address 
+10:24:04.370 [main] INFO  testCases.TC_017_Downloads - Provided Password
+10:24:09.977 [main] INFO  testCases.TC_017_Downloads - Clickded On THe Login Button
+10:24:14.968 [main] INFO  testCases.TC_017_Downloads - Clicked On The Download Button
+10:24:42.251 [main] INFO  testCases.TC_018_RewardsPoint - Launched chrome Browser
+10:24:42.255 [main] INFO  testCases.TC_018_RewardsPoint - Starting TC_016_MyAccountInformation
+10:24:49.354 [main] INFO  testCases.TC_009_WishList - Launched chrome Browser
+10:24:49.358 [main] INFO  testCases.TC_009_WishList - Starting TC_009_WishList
+10:24:52.700 [main] INFO  testCases.TC_018_RewardsPoint - Home Page Displayed 
+10:24:53.046 [main] INFO  testCases.TC_018_RewardsPoint - Clicked On The My Account
+10:24:59.252 [main] INFO  testCases.TC_018_RewardsPoint - Clicked On the Login
+10:25:01.545 [main] INFO  testCases.TC_018_RewardsPoint - Provided Email 
+10:25:01.674 [main] INFO  testCases.TC_009_WishList - Home Page Displayed 
+10:25:01.816 [main] INFO  testCases.TC_018_RewardsPoint - Provided Password 
+10:25:04.577 [main] INFO  testCases.TC_009_WishList - Enter any Product
+10:25:06.279 [main] INFO  testCases.TC_018_RewardsPoint - Clicked on Login
+10:25:09.279 [main] INFO  testCases.TC_009_WishList - clicked on the search button
+10:25:12.052 [main] INFO  testCases.TC_018_RewardsPoint - Clicked On The Rewards Point
+10:25:21.388 [main] INFO  testCases.TC_009_WishList - clicked on the searched image
+10:25:24.692 [main] INFO  testCases.TC_009_WishList - Clicked on the WishList Symbol
+10:25:26.792 [main] INFO  testCases.TC_009_WishList - Clicked on MyAccount
+10:25:30.967 [main] INFO  testCases.TC_009_WishList - Clicked on the Login
+10:25:31.458 [main] INFO  testCases.TC_009_WishList - Email is provided
+10:25:31.720 [main] INFO  testCases.TC_009_WishList - Password is Provided
+10:25:37.494 [main] INFO  testCases.TC_019_ReturnRequest - Launched chrome Browser
+10:25:37.497 [main] INFO  testCases.TC_019_ReturnRequest - Starting TC_019_MyAccountInformation
+10:25:43.761 [main] INFO  testCases.TC_009_WishList - Clicked on Login Button
+10:25:53.772 [main] INFO  testCases.TC_009_WishList - Search Success
+10:25:53.772 [main] INFO  testCases.TC_009_WishList - TC_009_WishList Complited
+10:25:59.691 [main] INFO  testCases.TC_019_ReturnRequest - Home Page Displayed 
+10:26:00.027 [main] INFO  testCases.TC_019_ReturnRequest - Clicked On The My Account
+10:26:02.560 [main] INFO  testCases.TC_019_ReturnRequest - Clicked On the Login
+10:26:04.764 [main] INFO  testCases.TC_019_ReturnRequest - Provided Email 
+10:26:04.907 [main] INFO  testCases.TC_019_ReturnRequest - Provided Password 
+10:26:07.459 [main] INFO  testCases.TC_019_ReturnRequest - Clicked on Login
+10:26:24.652 [main] INFO  testCases.TC_019_ReturnRequest - Clicked On The Return Request
+10:26:30.279 [main] INFO  testCases.TC_010_ShoppingCart - Launched chrome Browser
+10:26:30.286 [main] INFO  testCases.TC_010_ShoppingCart - Starting TC_010_ShoppingCart
+10:26:39.161 [main] INFO  testCases.TC_010_ShoppingCart - Home Page Displayed 
+10:26:39.619 [main] INFO  testCases.TC_010_ShoppingCart - Enter Any Product
+10:26:42.950 [main] INFO  testCases.TC_020_Transactions - Launched chrome Browser
+10:26:42.962 [main] INFO  testCases.TC_020_Transactions - Starting TC_020_MyAccountInformation
+10:26:43.621 [main] INFO  testCases.TC_010_ShoppingCart - Clicked OnThe Search Button Icon
+10:26:53.818 [main] INFO  testCases.TC_020_Transactions - Home Page Displayed 
+10:26:53.903 [main] INFO  testCases.TC_010_ShoppingCart - clicked On The Searched Product
+10:26:54.419 [main] INFO  testCases.TC_020_Transactions - Clicked On The My Account
+10:26:55.526 [main] INFO  testCases.TC_010_ShoppingCart - Clicked On Add To Cart
+10:26:58.874 [main] INFO  testCases.TC_020_Transactions - Clicked On the Login
+10:27:01.142 [main] INFO  testCases.TC_020_Transactions - Provided Email 
+10:27:01.284 [main] INFO  testCases.TC_020_Transactions - Provided Password 
+10:27:02.286 [main] INFO  testCases.TC_020_Transactions - Clicked on Login
+10:27:03.865 [main] INFO  testCases.TC_020_Transactions - Clicked On The Your Transactions
+10:27:08.304 [main] INFO  testCases.TC_010_ShoppingCart - Clicked On Shop Cart
+10:27:09.404 [main] INFO  testCases.TC_010_ShoppingCart - Clicked on Use Coupon Code
+10:27:11.211 [main] INFO  testCases.TC_010_ShoppingCart - Entered Coupon Code
+10:27:12.325 [main] INFO  testCases.TC_010_ShoppingCart - Clickd On Apply Coupon
+10:27:15.442 [main] INFO  testCases.TC_010_ShoppingCart - Clicked on the Estimate Shipping And Taxes in DropDown
+10:27:17.265 [main] INFO  testCases.TC_010_ShoppingCart - Clicked on The Country DropDown
+10:27:23.857 [main] INFO  testCases.TC_021_RecurringPayment - Launched chrome Browser
+10:27:23.862 [main] INFO  testCases.TC_021_RecurringPayment - Starting TC_021_MyAccountInformation
+10:27:29.295 [main] INFO  testCases.TC_021_RecurringPayment - Home Page Displayed 
+10:27:29.649 [main] INFO  testCases.TC_021_RecurringPayment - Clicked On The My Account
+10:27:32.509 [main] INFO  testCases.TC_021_RecurringPayment - Clicked On the Login
+10:27:34.729 [main] INFO  testCases.TC_021_RecurringPayment - Provided Email 
+10:27:34.907 [main] INFO  testCases.TC_021_RecurringPayment - Provided Password 
+10:27:36.011 [main] INFO  testCases.TC_021_RecurringPayment - Clicked on Login
+10:27:38.535 [main] INFO  testCases.TC_021_RecurringPayment - Clicked On The Recurring Payment
+10:27:49.232 [main] INFO  testCases.TC_010_ShoppingCart - Selected the Country
+10:27:49.889 [main] INFO  testCases.TC_022_NewsLetter - Launched chrome Browser
+10:27:49.894 [main] INFO  testCases.TC_022_NewsLetter - Starting TC_022_MyAccountInformation
+10:27:52.366 [main] INFO  testCases.TC_010_ShoppingCart - Clicked On The Select Dropdown
+10:27:54.535 [main] INFO  testCases.TC_010_ShoppingCart - Clicked On The Select State
+10:27:59.141 [main] INFO  testCases.TC_010_ShoppingCart - Provided Pincode
+10:28:01.240 [main] INFO  testCases.TC_010_ShoppingCart - Clicked on the Get Quotes Button 
+10:28:04.317 [main] INFO  testCases.TC_010_ShoppingCart - Clicked on The Cancel Button
+10:28:05.545 [main] INFO  testCases.TC_022_NewsLetter - Home Page Displayed 
+10:28:05.823 [main] INFO  testCases.TC_022_NewsLetter - Clicked On The My Account
+10:28:07.434 [main] INFO  testCases.TC_010_ShoppingCart - Clicked on the Use Gift Certificate 
+10:28:08.752 [main] INFO  testCases.TC_010_ShoppingCart - Clicked on The Gift Certificate Code
+10:28:08.782 [main] INFO  testCases.TC_022_NewsLetter - Clicked On the Login
+10:28:09.867 [main] INFO  testCases.TC_010_ShoppingCart - Clicked on apply Gift Button
+10:28:11.024 [main] INFO  testCases.TC_022_NewsLetter - Provided Email 
+10:28:11.328 [main] INFO  testCases.TC_022_NewsLetter - Provided Password 
+10:28:13.468 [main] INFO  testCases.TC_022_NewsLetter - Clicked on Login
+10:28:14.302 [main] INFO  testCases.TC_010_ShoppingCart - Clicked on the Continue Shopping
+10:28:15.317 [main] INFO  testCases.TC_022_NewsLetter - Clicked On The NewsLetter
+10:28:18.768 [main] INFO  testCases.TC_022_NewsLetter - Clicked On The Continue Button
+10:28:20.777 [main] INFO  testCases.TC_022_NewsLetter - Finished TC_022_NewsLetter
+10:28:28.038 [main] INFO  testCases.TC_023_Affiliate - Launched chrome Browser
+10:28:28.058 [main] INFO  testCases.TC_023_Affiliate - Starting TC_023_MyAccountInformation
+10:28:29.113 [main] INFO  testCases.TC_012_MyAccount - Launched chrome Browser
+10:28:29.116 [main] INFO  testCases.TC_012_MyAccount - Starting TC_012_MyAccount
+10:28:42.473 [main] INFO  testCases.TC_023_Affiliate - Home Page Displayed 
+10:28:42.546 [main] INFO  testCases.TC_012_MyAccount - Home Page Displayed 
+10:28:42.862 [main] INFO  testCases.TC_012_MyAccount - Clicked On The My Account
+10:28:42.951 [main] INFO  testCases.TC_023_Affiliate - Clicked On The My Account
+10:28:46.484 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Login
+10:28:46.618 [main] INFO  testCases.TC_012_MyAccount - Clicked On the Login
+10:28:48.740 [main] INFO  testCases.TC_023_Affiliate - Provided Email 
+10:28:48.938 [main] INFO  testCases.TC_012_MyAccount - Provided Email Address 
+10:28:48.985 [main] INFO  testCases.TC_023_Affiliate - Provided Password 
+10:28:50.470 [main] INFO  testCases.TC_023_Affiliate - Clicked on Login
+10:28:51.086 [main] INFO  testCases.TC_012_MyAccount - Provided Password
+10:28:52.387 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Edit Affiliate Program
+10:28:54.192 [main] INFO  testCases.TC_012_MyAccount - Clickded On THe Login Button
+10:28:54.565 [main] INFO  testCases.TC_023_Affiliate - Filled company Name
+10:28:56.305 [main] INFO  testCases.TC_012_MyAccount - Clicked On The My Account
+10:28:56.838 [main] INFO  testCases.TC_023_Affiliate - Filled WebSite Name
+10:28:59.045 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Tax_id
+10:29:01.147 [main] INFO  testCases.TC_023_Affiliate - Selected Payment Method
+10:29:02.461 [main] INFO  testCases.TC_012_MyAccount - Clicked on The Logout
+10:29:03.502 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Cheque Payee
+10:29:06.752 [main] INFO  testCases.TC_012_MyAccount - Clicked On The Footer Section Text
+10:29:08.107 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Continue Button
+10:29:14.243 [main] INFO  testCases.TC_013_MyAccountInformation - Launched chrome Browser
+10:29:14.265 [main] INFO  testCases.TC_013_MyAccountInformation - Starting TC_013_MyAccountInformation
+10:29:22.651 [main] INFO  testCases.TC_013_MyAccountInformation - Home Page Displayed 
+10:29:22.880 [main] INFO  testCases.TC_013_MyAccountInformation - Clicked On The My Account
+10:29:25.713 [main] INFO  testCases.TC_013_MyAccountInformation - Clicked On the Login
+10:29:27.928 [main] INFO  testCases.TC_013_MyAccountInformation - Provided Email Address 
+10:29:30.060 [main] INFO  testCases.TC_013_MyAccountInformation - Provided Password
+10:29:35.399 [main] INFO  testCases.TC_024_ContactUs - Launched chrome Browser
+10:29:35.402 [main] INFO  testCases.TC_024_ContactUs - Starting TC_024_MyAccountInformation
+10:29:38.264 [main] INFO  testCases.TC_013_MyAccountInformation - Clickded On THe Login Button
+10:29:44.302 [main] INFO  testCases.TC_013_MyAccountInformation - Clicked On The My Account Information
+10:29:45.430 [main] INFO  testCases.TC_024_ContactUs - Home Page Displayed 
+10:29:45.653 [main] INFO  testCases.TC_024_ContactUs - Clicked On The My Account
+10:29:46.496 [main] INFO  testCases.TC_013_MyAccountInformation - Clicked On The Edit Telephpne
+10:29:48.502 [main] INFO  testCases.TC_013_MyAccountInformation - Finished TC_013_MyAccountInformation 
+10:29:51.084 [main] INFO  testCases.TC_024_ContactUs - Clicked On the Login
+10:29:53.293 [main] INFO  testCases.TC_024_ContactUs - Provided Email 
+10:29:53.430 [main] INFO  testCases.TC_024_ContactUs - Provided Password 
+10:29:59.773 [main] INFO  testCases.TC_024_ContactUs - Clicked on Login
+10:30:02.797 [main] INFO  testCases.TC_024_ContactUs - Clicked On The Contact Us 
+10:30:05.013 [main] INFO  testCases.TC_024_ContactUs - Entered The Name
+10:30:07.212 [main] INFO  testCases.TC_024_ContactUs - Entered The Email
+10:30:09.511 [main] INFO  testCases.TC_024_ContactUs - Entered Product NAme
+10:30:12.912 [main] INFO  testCases.TC_014_ChangePassword - Launched chrome Browser
+10:30:12.915 [main] INFO  testCases.TC_014_ChangePassword - Starting TC_013_MyAccountInformation
+10:30:15.283 [main] INFO  testCases.TC_024_ContactUs - Clicked On The Submmit Button
+10:30:19.784 [main] INFO  testCases.TC_014_ChangePassword - Home Page Displayed 
+10:30:20.275 [main] INFO  testCases.TC_014_ChangePassword - Clicked On The My Account
+10:30:22.944 [main] INFO  testCases.TC_014_ChangePassword - Clicked On the Login
+10:30:25.147 [main] INFO  testCases.TC_014_ChangePassword - Provided Email Address 
+10:30:27.326 [main] INFO  testCases.TC_014_ChangePassword - Provided Password
+10:30:30.291 [main] INFO  testCases.TC_014_ChangePassword - Clickded On THe Login Button
+10:30:33.489 [main] INFO  testCases.TC_014_ChangePassword - Clicked on The Change Password
+10:30:36.056 [main] INFO  testCases.TC_014_ChangePassword - Clicked on the password
+10:30:36.486 [main] INFO  testCases.TC_025_FooterOption - Launched chrome Browser
+10:30:36.490 [main] INFO  testCases.TC_025_FooterOption - Starting TC_025_FooterOption
+10:30:38.208 [main] INFO  testCases.TC_014_ChangePassword - Clicked on the confpassword
+10:30:41.659 [main] INFO  testCases.TC_014_ChangePassword - Clicked On The Continue Button
+10:30:44.004 [main] INFO  testCases.TC_025_FooterOption - Home Page Displayed 
+10:30:44.277 [main] INFO  testCases.TC_025_FooterOption - Clicked On The My Account
+10:30:48.776 [main] INFO  testCases.TC_025_FooterOption - Clicked On the Login
+10:30:50.763 [main] INFO  testCases.TC_015_AddressBook - Launched chrome Browser
+10:30:50.768 [main] INFO  testCases.TC_015_AddressBook - Starting TC_013_MyAccountInformation
+10:30:51.175 [main] INFO  testCases.TC_025_FooterOption - Provided Email 
+10:30:51.331 [main] INFO  testCases.TC_025_FooterOption - Provided Password 
+10:30:56.008 [main] INFO  testCases.TC_025_FooterOption - Clicked on Login
+10:30:59.533 [main] INFO  testCases.TC_025_FooterOption - Clicked On The Brand Link
+10:31:02.791 [main] INFO  testCases.TC_025_FooterOption - Clicked On The Canon Link
+10:31:03.674 [main] INFO  testCases.TC_015_AddressBook - Home Page Displayed 
+10:31:04.065 [main] INFO  testCases.TC_015_AddressBook - Clicked On The My Account
+10:31:04.895 [main] INFO  testCases.TC_025_FooterOption - Clicked on the Grid Link
+10:31:07.105 [main] INFO  testCases.TC_025_FooterOption - Clicked On The Compare Product
+10:31:07.277 [main] INFO  testCases.TC_015_AddressBook - Clicked On the Login
+10:31:09.488 [main] INFO  testCases.TC_015_AddressBook - Provided Email Address 
+10:31:11.639 [main] INFO  testCases.TC_015_AddressBook - Provided Password
+10:31:15.079 [main] INFO  testCases.TC_015_AddressBook - Clickded On THe Login Button
+10:31:18.726 [main] INFO  testCases.TC_015_AddressBook - Clicked On The Address Book
+10:31:22.854 [main] INFO  testCases.TC_015_AddressBook - Clicked On The New Address Button
+10:31:26.375 [main] INFO  testCases.TC_015_AddressBook - Clicked On The BAck Button
+10:31:26.482 [main] INFO  testCases.TC_027_GiftCertificate - Launched chrome Browser
+10:31:26.499 [main] INFO  testCases.TC_027_GiftCertificate - Starting TC_027_FooterOption
+10:31:31.327 [main] INFO  testCases.TC_027_GiftCertificate - Home Page Displayed 
+10:31:31.649 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On The My Account
+10:31:34.366 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On the Login
+10:31:36.744 [main] INFO  testCases.TC_016_Order_History - Launched chrome Browser
+10:31:36.827 [main] INFO  testCases.TC_016_Order_History - Starting TC_016_MyAccountInformation
+10:31:36.827 [main] INFO  testCases.TC_027_GiftCertificate - Provided Email 
+10:31:37.153 [main] INFO  testCases.TC_027_GiftCertificate - Provided Password 
+10:31:42.511 [main] INFO  testCases.TC_027_GiftCertificate - Clicked on Login
+10:31:46.339 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On The Gift Certificate Link
+10:31:47.587 [main] INFO  testCases.TC_016_Order_History - Home Page Displayed 
+10:31:47.856 [main] INFO  testCases.TC_016_Order_History - Clicked On The My Account
+10:31:48.547 [main] INFO  testCases.TC_027_GiftCertificate - Entered Reciepent Name 
+10:31:50.877 [main] INFO  testCases.TC_027_GiftCertificate - Entered Recipient Email
+10:31:50.984 [main] INFO  testCases.TC_016_Order_History - Clicked On the Login
+10:31:53.078 [main] INFO  testCases.TC_027_GiftCertificate - Enter Your Name 
+10:31:53.236 [main] INFO  testCases.TC_016_Order_History - Provided Email Address 
+10:31:55.491 [main] INFO  testCases.TC_027_GiftCertificate - Entered your Email
+10:31:55.497 [main] INFO  testCases.TC_016_Order_History - Provided Password
+10:31:57.594 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On THE Radio Button
+10:31:58.425 [main] INFO  testCases.TC_016_Order_History - Clickded On THe Login Button
+10:31:59.716 [main] INFO  testCases.TC_027_GiftCertificate - Entered the Description
+10:32:01.320 [main] INFO  testCases.TC_016_Order_History - Clicked On the Order History
+10:32:01.830 [main] INFO  testCases.TC_027_GiftCertificate - Enterred Amount
+10:32:03.928 [main] INFO  testCases.TC_016_Order_History - Clicked On The Continue Button
+10:32:03.972 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On The Agree Box 
+10:32:06.866 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On The Continue Button
+10:32:22.929 [main] INFO  testCases.TC_017_Downloads - Launched chrome Browser
+10:32:22.933 [main] INFO  testCases.TC_017_Downloads - Starting TC_016_MyAccountInformation
+10:32:36.590 [main] INFO  testCases.TC_017_Downloads - Home Page Displayed 
+10:32:36.867 [main] INFO  testCases.TC_017_Downloads - Clicked On The My Account
+10:32:40.030 [main] INFO  testCases.TC_017_Downloads - Clicked On the Login
+10:32:42.209 [main] INFO  testCases.TC_017_Downloads - Provided Email Address 
+10:32:44.338 [main] INFO  testCases.TC_017_Downloads - Provided Password
+10:32:48.958 [main] INFO  testCases.TC_017_Downloads - Clickded On THe Login Button
+10:32:51.975 [main] INFO  testCases.TC_017_Downloads - Clicked On The Download Button
+10:32:59.360 [main] INFO  testCases.TC_018_RewardsPoint - Launched chrome Browser
+10:32:59.365 [main] INFO  testCases.TC_018_RewardsPoint - Starting TC_016_MyAccountInformation
+10:33:04.193 [main] INFO  testCases.TC_018_RewardsPoint - Home Page Displayed 
+10:33:04.716 [main] INFO  testCases.TC_018_RewardsPoint - Clicked On The My Account
+10:33:07.274 [main] INFO  testCases.TC_018_RewardsPoint - Clicked On the Login
+10:33:09.584 [main] INFO  testCases.TC_018_RewardsPoint - Provided Email 
+10:33:09.719 [main] INFO  testCases.TC_018_RewardsPoint - Provided Password 
+10:33:10.819 [main] INFO  testCases.TC_018_RewardsPoint - Clicked on Login
+10:33:13.232 [main] INFO  testCases.TC_018_RewardsPoint - Clicked On The Rewards Point
+10:33:18.042 [main] INFO  testCases.TC_019_ReturnRequest - Launched chrome Browser
+10:33:18.045 [main] INFO  testCases.TC_019_ReturnRequest - Starting TC_019_MyAccountInformation
+10:33:21.972 [main] INFO  testCases.TC_019_ReturnRequest - Home Page Displayed 
+10:33:22.686 [main] INFO  testCases.TC_019_ReturnRequest - Clicked On The My Account
+10:33:26.812 [main] INFO  testCases.TC_019_ReturnRequest - Clicked On the Login
+10:33:29.004 [main] INFO  testCases.TC_019_ReturnRequest - Provided Email 
+10:33:29.147 [main] INFO  testCases.TC_019_ReturnRequest - Provided Password 
+10:33:31.437 [main] INFO  testCases.TC_019_ReturnRequest - Clicked on Login
+10:33:32.458 [main] INFO  testCases.TC_019_ReturnRequest - Clicked On The Return Request
+10:33:38.772 [main] INFO  testCases.TC_020_Transactions - Launched chrome Browser
+10:33:38.789 [main] INFO  testCases.TC_020_Transactions - Starting TC_020_MyAccountInformation
+10:33:42.931 [main] INFO  testCases.TC_020_Transactions - Home Page Displayed 
+10:33:43.235 [main] INFO  testCases.TC_020_Transactions - Clicked On The My Account
+10:33:45.931 [main] INFO  testCases.TC_020_Transactions - Clicked On the Login
+10:33:48.126 [main] INFO  testCases.TC_020_Transactions - Provided Email 
+10:33:48.290 [main] INFO  testCases.TC_020_Transactions - Provided Password 
+10:33:49.426 [main] INFO  testCases.TC_020_Transactions - Clicked on Login
+10:33:52.539 [main] INFO  testCases.TC_020_Transactions - Clicked On The Your Transactions
+10:34:03.228 [main] INFO  testCases.TC_021_RecurringPayment - Launched chrome Browser
+10:34:03.232 [main] INFO  testCases.TC_021_RecurringPayment - Starting TC_021_MyAccountInformation
+10:34:07.238 [main] INFO  testCases.TC_021_RecurringPayment - Home Page Displayed 
+10:34:07.650 [main] INFO  testCases.TC_021_RecurringPayment - Clicked On The My Account
+10:34:10.430 [main] INFO  testCases.TC_021_RecurringPayment - Clicked On the Login
+10:34:12.747 [main] INFO  testCases.TC_021_RecurringPayment - Provided Email 
+10:34:12.912 [main] INFO  testCases.TC_021_RecurringPayment - Provided Password 
+10:34:14.315 [main] INFO  testCases.TC_021_RecurringPayment - Clicked on Login
+10:34:15.234 [main] INFO  testCases.TC_021_RecurringPayment - Clicked On The Recurring Payment
+10:34:20.814 [main] INFO  testCases.TC_022_NewsLetter - Launched chrome Browser
+10:34:20.817 [main] INFO  testCases.TC_022_NewsLetter - Starting TC_022_MyAccountInformation
+10:34:27.537 [main] INFO  testCases.TC_022_NewsLetter - Home Page Displayed 
+10:34:27.752 [main] INFO  testCases.TC_022_NewsLetter - Clicked On The My Account
+10:34:30.810 [main] INFO  testCases.TC_022_NewsLetter - Clicked On the Login
+10:34:33.004 [main] INFO  testCases.TC_022_NewsLetter - Provided Email 
+10:34:33.154 [main] INFO  testCases.TC_022_NewsLetter - Provided Password 
+10:34:36.891 [main] INFO  testCases.TC_022_NewsLetter - Clicked on Login
+10:34:37.441 [main] INFO  testCases.TC_022_NewsLetter - Clicked On The NewsLetter
+10:34:40.469 [main] INFO  testCases.TC_022_NewsLetter - Clicked On The Continue Button
+10:34:42.472 [main] INFO  testCases.TC_022_NewsLetter - Finished TC_022_NewsLetter
+10:34:48.065 [main] INFO  testCases.TC_023_Affiliate - Launched chrome Browser
+10:34:48.068 [main] INFO  testCases.TC_023_Affiliate - Starting TC_023_MyAccountInformation
+10:34:55.142 [main] INFO  testCases.TC_023_Affiliate - Home Page Displayed 
+10:34:55.672 [main] INFO  testCases.TC_023_Affiliate - Clicked On The My Account
+10:34:58.482 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Login
+10:35:00.704 [main] INFO  testCases.TC_023_Affiliate - Provided Email 
+10:35:00.834 [main] INFO  testCases.TC_023_Affiliate - Provided Password 
+10:35:09.603 [main] INFO  testCases.TC_023_Affiliate - Clicked on Login
+10:35:10.397 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Edit Affiliate Program
+10:35:12.584 [main] INFO  testCases.TC_023_Affiliate - Filled company Name
+10:35:14.817 [main] INFO  testCases.TC_023_Affiliate - Filled WebSite Name
+10:35:17.125 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Tax_id
+10:35:19.236 [main] INFO  testCases.TC_023_Affiliate - Selected Payment Method
+10:35:21.551 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Cheque Payee
+10:35:24.507 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Continue Button
+10:35:36.455 [main] INFO  testCases.TC_024_ContactUs - Launched chrome Browser
+10:35:36.458 [main] INFO  testCases.TC_024_ContactUs - Starting TC_024_MyAccountInformation
+10:35:41.014 [main] INFO  testCases.TC_024_ContactUs - Home Page Displayed 
+10:35:41.570 [main] INFO  testCases.TC_024_ContactUs - Clicked On The My Account
+10:35:44.117 [main] INFO  testCases.TC_024_ContactUs - Clicked On the Login
+10:35:46.345 [main] INFO  testCases.TC_024_ContactUs - Provided Email 
+10:35:46.494 [main] INFO  testCases.TC_024_ContactUs - Provided Password 
+10:35:47.610 [main] INFO  testCases.TC_024_ContactUs - Clicked on Login
+10:35:50.130 [main] INFO  testCases.TC_024_ContactUs - Clicked On The Contact Us 
+10:35:52.360 [main] INFO  testCases.TC_024_ContactUs - Entered The Name
+10:35:54.570 [main] INFO  testCases.TC_024_ContactUs - Entered The Email
+10:35:56.746 [main] INFO  testCases.TC_024_ContactUs - Entered Product NAme
+10:36:00.151 [main] INFO  testCases.TC_024_ContactUs - Clicked On The Submmit Button
+10:36:05.083 [main] INFO  testCases.TC_025_FooterOption - Launched chrome Browser
+10:36:05.087 [main] INFO  testCases.TC_025_FooterOption - Starting TC_025_FooterOption
+10:36:09.941 [main] INFO  testCases.TC_025_FooterOption - Home Page Displayed 
+10:36:10.514 [main] INFO  testCases.TC_025_FooterOption - Clicked On The My Account
+10:36:13.333 [main] INFO  testCases.TC_025_FooterOption - Clicked On the Login
+10:36:15.655 [main] INFO  testCases.TC_025_FooterOption - Provided Email 
+10:36:15.810 [main] INFO  testCases.TC_025_FooterOption - Provided Password 
+10:36:16.765 [main] INFO  testCases.TC_025_FooterOption - Clicked on Login
+10:36:17.690 [main] INFO  testCases.TC_025_FooterOption - Clicked On The Brand Link
+10:36:20.379 [main] INFO  testCases.TC_025_FooterOption - Clicked On The Canon Link
+10:36:22.468 [main] INFO  testCases.TC_025_FooterOption - Clicked on the Grid Link
+10:36:24.600 [main] INFO  testCases.TC_025_FooterOption - Clicked On The Compare Product
+10:36:31.181 [main] INFO  testCases.TC_027_GiftCertificate - Launched chrome Browser
+10:36:31.184 [main] INFO  testCases.TC_027_GiftCertificate - Starting TC_027_FooterOption
+10:36:40.668 [main] INFO  testCases.TC_027_GiftCertificate - Home Page Displayed 
+10:36:40.951 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On The My Account
+10:36:44.745 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On the Login
+10:36:46.954 [main] INFO  testCases.TC_027_GiftCertificate - Provided Email 
+10:36:47.110 [main] INFO  testCases.TC_027_GiftCertificate - Provided Password 
+10:36:48.008 [main] INFO  testCases.TC_027_GiftCertificate - Clicked on Login
+10:36:48.791 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On The Gift Certificate Link
+10:36:51.005 [main] INFO  testCases.TC_027_GiftCertificate - Entered Reciepent Name 
+10:36:53.244 [main] INFO  testCases.TC_027_GiftCertificate - Entered Recipient Email
+10:36:55.446 [main] INFO  testCases.TC_027_GiftCertificate - Enter Your Name 
+10:36:57.703 [main] INFO  testCases.TC_027_GiftCertificate - Entered your Email
+10:36:59.810 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On THE Radio Button
+10:37:01.941 [main] INFO  testCases.TC_027_GiftCertificate - Entered the Description
+10:37:04.056 [main] INFO  testCases.TC_027_GiftCertificate - Enterred Amount
+10:37:06.155 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On The Agree Box 
+10:37:08.946 [main] INFO  testCases.TC_027_GiftCertificate - Clicked On The Continue Button
+10:43:45.160 [main] INFO  testCases.TC_023_Affiliate - Launched chrome Browser
+10:43:45.240 [main] INFO  testCases.TC_023_Affiliate - Starting TC_023_MyAccountInformation
+10:43:48.035 [main] INFO  testCases.TC_023_Affiliate - Home Page Displayed 
+10:43:48.403 [main] INFO  testCases.TC_023_Affiliate - Clicked On The My Account
+10:43:51.523 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Login
+10:43:53.768 [main] INFO  testCases.TC_023_Affiliate - Provided Email 
+10:43:53.939 [main] INFO  testCases.TC_023_Affiliate - Provided Password 
+10:43:55.243 [main] INFO  testCases.TC_023_Affiliate - Clicked on Login
+10:43:55.901 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Edit Affiliate Program
+10:43:58.111 [main] INFO  testCases.TC_023_Affiliate - Filled company Name
+10:44:00.416 [main] INFO  testCases.TC_023_Affiliate - Filled WebSite Name
+10:44:02.646 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Tax_id
+10:44:04.757 [main] INFO  testCases.TC_023_Affiliate - Selected Payment Method
+10:44:07.867 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Cheque Payee
+10:44:12.400 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Continue Button
+10:52:22.918 [main] INFO  testCases.TC_023_Affiliate - Launched chrome Browser
+10:52:22.958 [main] INFO  testCases.TC_023_Affiliate - Starting TC_023_MyAccountInformation
+10:52:29.346 [main] INFO  testCases.TC_023_Affiliate - Home Page Displayed 
+10:52:29.669 [main] INFO  testCases.TC_023_Affiliate - Clicked On The My Account
+10:52:32.469 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Login
+10:52:34.764 [main] INFO  testCases.TC_023_Affiliate - Provided Email 
+10:52:34.921 [main] INFO  testCases.TC_023_Affiliate - Provided Password 
+10:52:36.403 [main] INFO  testCases.TC_023_Affiliate - Clicked on Login
+10:52:37.303 [main] INFO  testCases.TC_023_Affiliate - Clicked On the Edit Affiliate Program

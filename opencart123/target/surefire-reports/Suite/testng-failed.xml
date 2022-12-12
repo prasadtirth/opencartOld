@@ -14,6 +14,20 @@
           <include name="test_Account_Registration"/>
         </methods>
       </class> <!-- testCases.TC_001_AccountRegistrationPage -->
+      <class name="testCases.TC_003_LoginDDT">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_LoginDDT" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.TC_003_LoginDDT -->
+      <class name="testCases.TC_010_ShoppingCart">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_ShoppingCart"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_010_ShoppingCart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

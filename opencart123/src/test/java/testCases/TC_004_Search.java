@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class TC_004_Search extends BaseClass {
 	
-	@Test
+	@Test(groups= {"regression"})
 	public void  test_search() throws InterruptedException
 	{
 	logger.info(" Starting TC_004_Search ");

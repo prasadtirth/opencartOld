@@ -1,6 +1,6 @@
 package utilities;
 
-import java.io.IOException;
+
 import java.net.URL;
 
 //Extent report 5.x
@@ -9,8 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-import org.apache.commons.mail.ImageHtmlEmail;
-import org.apache.commons.mail.resolver.DataSourceUrlResolver;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -38,7 +37,7 @@ public class ExtentReportManager implements ITestListener
 				
 		sparkReporter.config().setDocumentTitle("Opencart Automation Report"); // Title of report
 		sparkReporter.config().setReportName("Opencart  Functional Testing"); // name of the report
-		sparkReporter.config().setTheme(Theme.DARK);
+		sparkReporter.config().setTheme(Theme.STANDARD);
 				
 		extent=new ExtentReports();
 		extent.attachReporter(sparkReporter);
@@ -48,7 +47,7 @@ public class ExtentReportManager implements ITestListener
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
 		extent.setSystemInfo("Environemnt","QA");
-		extent.setSystemInfo("Tester name","pavan");
+		extent.setSystemInfo("Tester name","Prasad");
 	}
 	
 		
@@ -112,17 +111,5 @@ public class ExtentReportManager implements ITestListener
 		}
 
 
-	@Override
-	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
 		
-	}
-
-
-	@Override
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
-	
 }

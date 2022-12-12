@@ -21,8 +21,7 @@ import testBase.BaseClass;
 public class TC_001_AccountRegistrationPage extends BaseClass
 
 { 	 
-	@Test(groups={"regression","master"})
-	
+	@Test(groups={"regression","master"})	
      public void test_Account_Registration() throws InterruptedException, IOException
      {
     	 logger.info("Strating TC_001_AccountRegistration");

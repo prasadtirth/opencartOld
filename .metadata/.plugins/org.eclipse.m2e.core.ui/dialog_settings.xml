@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Eclipse Workplace 2\poshangov\src\module-info.java"/>
+			<item value="C:\Eclipse Workplace 2\opencart123\allTests.xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -44,12 +46,26 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="SeleniumPractice"/>
+			<item value="PracticeProgram"/>
+			<item value="AutomationProgram"/>
+			<item value="HomeWorkProgram"/>
+			<item value="poshan2022"/>
+			<item value="sampleproject"/>
+			<item value="poshan"/>
 			<item value="opencart123"/>
 			<item value="opencartv4"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SelniumPractice"/>
+			<item value="PracticeProgram"/>
+			<item value="AutomationProgram"/>
+			<item value="HomeWorkProgram"/>
+			<item value="poshan2022"/>
+			<item value="sampleproject"/>
+			<item value="poshan"/>
 			<item value="opencart123"/>
 			<item value="opencartn4"/>
 		</list>

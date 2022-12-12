@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+<testng-results ignored="0" total="28" passed="27" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-05T08:26:46 IST" name="Suite" finished-at="2022-09-05T08:42:26 IST" duration-ms="939530">
+  <suite started-at="2022-12-12T10:58:04 IST" name="Suite" finished-at="2022-12-12T11:11:09 IST" duration-ms="784800">
     <groups>
       <group name="ddt">
-        <method signature="TC_003_LoginDDT.test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@7193666c]" name="test_LoginDDT" class="testCases.TC_003_LoginDDT"/>
+        <method signature="TC_003_LoginDDT.test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@6a192cfe]" name="test_LoginDDT" class="testCases.TC_003_LoginDDT"/>
       </group> <!-- ddt -->
       <group name="regression">
-        <method signature="TC_001_AccountRegistrationPage.test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@6a192cfe]" name="test_Account_Registration" class="testCases.TC_001_AccountRegistrationPage"/>
+        <method signature="TC_001_AccountRegistrationPage.test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@188715b5]" name="test_Account_Registration" class="testCases.TC_001_AccountRegistrationPage"/>
+        <method signature="TC_004_Search.test_search()[pri:0, instance:testCases.TC_004_Search@5119fb47]" name="test_search" class="testCases.TC_004_Search"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@5119fb47]" name="test_Login" class="testCases.TC_002_Login"/>
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@1ea9f6af]" name="test_Login" class="testCases.TC_002_Login"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC_001_AccountRegistrationPage.test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@6a192cfe]" name="test_Account_Registration" class="testCases.TC_001_AccountRegistrationPage"/>
-        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@5119fb47]" name="test_Login" class="testCases.TC_002_Login"/>
+        <method signature="TC_001_AccountRegistrationPage.test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@188715b5]" name="test_Account_Registration" class="testCases.TC_001_AccountRegistrationPage"/>
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@1ea9f6af]" name="test_Login" class="testCases.TC_002_Login"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2022-09-05T08:26:46 IST" name="Test" finished-at="2022-09-05T08:42:26 IST" duration-ms="939530">
+    <test started-at="2022-12-12T10:58:04 IST" name="Test" finished-at="2022-12-12T11:11:09 IST" duration-ms="784800">
       <class name="testCases.TC_022_NewsLetter">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_022_NewsLetter@40ef3420]" started-at="2022-09-05T08:39:38 IST" name="setup" finished-at="2022-09-05T08:39:40 IST" duration-ms="2908" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_022_NewsLetter@43195e57]" started-at="2022-12-12T11:08:03 IST" name="setup" finished-at="2022-12-12T11:08:06 IST" duration-ms="3671" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,17 +32,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_NewsLetter()[pri:0, instance:testCases.TC_022_NewsLetter@40ef3420]" started-at="2022-09-05T08:39:40 IST" name="test_NewsLetter" finished-at="2022-09-05T08:40:02 IST" duration-ms="21753" status="PASS">
+        <test-method signature="test_NewsLetter()[pri:0, instance:testCases.TC_022_NewsLetter@43195e57]" started-at="2022-12-12T11:08:06 IST" name="test_NewsLetter" finished-at="2022-12-12T11:08:26 IST" duration-ms="19958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_NewsLetter -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_022_NewsLetter@40ef3420]" started-at="2022-09-05T08:40:02 IST" name="teadDown" finished-at="2022-09-05T08:40:03 IST" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_022_NewsLetter@43195e57]" started-at="2022-12-12T11:08:26 IST" name="teadDown" finished-at="2022-12-12T11:08:27 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_022_NewsLetter -->
       <class name="testCases.TC_012_MyAccount">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_012_MyAccount@55b7a4e0]" started-at="2022-09-05T08:35:10 IST" name="setup" finished-at="2022-09-05T08:35:13 IST" duration-ms="3108" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_012_MyAccount@393671df]" started-at="2022-12-12T11:03:45 IST" name="setup" finished-at="2022-12-12T11:03:50 IST" duration-ms="4198" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,38 +53,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_MyAccount()[pri:0, instance:testCases.TC_012_MyAccount@55b7a4e0]" started-at="2022-09-05T08:35:13 IST" name="test_MyAccount" finished-at="2022-09-05T08:35:46 IST" duration-ms="33077" status="PASS">
+        <test-method signature="test_MyAccount()[pri:0, instance:testCases.TC_012_MyAccount@393671df]" started-at="2022-12-12T11:03:50 IST" name="test_MyAccount" finished-at="2022-12-12T11:04:19 IST" duration-ms="29522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_MyAccount -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_012_MyAccount@55b7a4e0]" started-at="2022-09-05T08:35:46 IST" name="teadDown" finished-at="2022-09-05T08:35:46 IST" duration-ms="437" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_012_MyAccount@393671df]" started-at="2022-12-12T11:04:19 IST" name="teadDown" finished-at="2022-12-12T11:04:19 IST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_012_MyAccount -->
-      <class name="testCases.TC_004_Search">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004_Search@20deea7f]" started-at="2022-09-05T08:29:35 IST" name="setup" finished-at="2022-09-05T08:29:37 IST" duration-ms="2713" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_search()[pri:0, instance:testCases.TC_004_Search@20deea7f]" started-at="2022-09-05T08:29:37 IST" name="test_search" finished-at="2022-09-05T08:30:04 IST" duration-ms="26133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_search -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_004_Search@20deea7f]" started-at="2022-09-05T08:30:04 IST" name="teadDown" finished-at="2022-09-05T08:30:06 IST" duration-ms="1944" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teadDown -->
-      </class> <!-- testCases.TC_004_Search -->
       <class name="testCases.TC_014_ChangePassword">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_014_ChangePassword@192d43ce]" started-at="2022-09-05T08:36:15 IST" name="setup" finished-at="2022-09-05T08:36:18 IST" duration-ms="2874" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_014_ChangePassword@6eda5c9]" started-at="2022-12-12T11:04:47 IST" name="setup" finished-at="2022-12-12T11:04:51 IST" duration-ms="3850" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,17 +74,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Change_password()[pri:0, instance:testCases.TC_014_ChangePassword@192d43ce]" started-at="2022-09-05T08:36:18 IST" name="test_Change_password" finished-at="2022-09-05T08:36:52 IST" duration-ms="34231" status="PASS">
+        <test-method signature="test_Change_password()[pri:0, instance:testCases.TC_014_ChangePassword@6eda5c9]" started-at="2022-12-12T11:04:51 IST" name="test_Change_password" finished-at="2022-12-12T11:05:18 IST" duration-ms="26860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Change_password -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_014_ChangePassword@192d43ce]" started-at="2022-09-05T08:36:52 IST" name="teadDown" finished-at="2022-09-05T08:36:55 IST" duration-ms="2471" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_014_ChangePassword@6eda5c9]" started-at="2022-12-12T11:05:18 IST" name="teadDown" finished-at="2022-12-12T11:05:18 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_014_ChangePassword -->
-      <class name="testCases.TC_013_MyAccountInformation">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_013_MyAccountInformation@5f058f00]" started-at="2022-09-05T08:35:46 IST" name="setup" finished-at="2022-09-05T08:35:48 IST" duration-ms="2012" status="PASS">
+      <class name="testCases.TC_004_Search">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004_Search@5119fb47]" started-at="2022-12-12T10:59:46 IST" name="setup" finished-at="2022-12-12T10:59:49 IST" duration-ms="3443" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,17 +95,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_MyAccountInformation()[pri:0, instance:testCases.TC_013_MyAccountInformation@5f058f00]" started-at="2022-09-05T08:35:48 IST" name="test_MyAccountInformation" finished-at="2022-09-05T08:36:15 IST" duration-ms="26682" status="PASS">
+        <test-method signature="test_search()[pri:0, instance:testCases.TC_004_Search@5119fb47]" started-at="2022-12-12T10:59:49 IST" name="test_search" finished-at="2022-12-12T11:00:09 IST" duration-ms="20385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_search -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_004_Search@5119fb47]" started-at="2022-12-12T11:00:09 IST" name="teadDown" finished-at="2022-12-12T11:00:10 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_004_Search -->
+      <class name="testCases.TC_013_MyAccountInformation">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_013_MyAccountInformation@56620197]" started-at="2022-12-12T11:04:19 IST" name="setup" finished-at="2022-12-12T11:04:24 IST" duration-ms="4695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_MyAccountInformation()[pri:0, instance:testCases.TC_013_MyAccountInformation@56620197]" started-at="2022-12-12T11:04:24 IST" name="test_MyAccountInformation" finished-at="2022-12-12T11:04:47 IST" duration-ms="23445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_MyAccountInformation -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_013_MyAccountInformation@5f058f00]" started-at="2022-09-05T08:36:15 IST" name="teadDown" finished-at="2022-09-05T08:36:15 IST" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_013_MyAccountInformation@56620197]" started-at="2022-12-12T11:04:47 IST" name="teadDown" finished-at="2022-12-12T11:04:47 IST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_013_MyAccountInformation -->
       <class name="testCases.TC_027_GiftCertificate">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_027_GiftCertificate@795cd85e]" started-at="2022-09-05T08:41:43 IST" name="setup" finished-at="2022-09-05T08:41:46 IST" duration-ms="3300" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_027_GiftCertificate@498d318c]" started-at="2022-12-12T11:10:28 IST" name="setup" finished-at="2022-12-12T11:10:33 IST" duration-ms="5617" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,38 +137,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_GiftCertificate()[pri:0, instance:testCases.TC_027_GiftCertificate@795cd85e]" started-at="2022-09-05T08:41:46 IST" name="test_GiftCertificate" finished-at="2022-09-05T08:42:25 IST" duration-ms="39292" status="PASS">
+        <test-method signature="test_GiftCertificate()[pri:0, instance:testCases.TC_027_GiftCertificate@498d318c]" started-at="2022-12-12T11:10:33 IST" name="test_GiftCertificate" finished-at="2022-12-12T11:11:08 IST" duration-ms="35105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_GiftCertificate -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_027_GiftCertificate@795cd85e]" started-at="2022-09-05T08:42:25 IST" name="teadDown" finished-at="2022-09-05T08:42:26 IST" duration-ms="556" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_027_GiftCertificate@498d318c]" started-at="2022-12-12T11:11:08 IST" name="teadDown" finished-at="2022-12-12T11:11:09 IST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_027_GiftCertificate -->
-      <class name="testCases.TC_019_ReturnRequest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_019_ReturnRequest@43195e57]" started-at="2022-09-05T08:38:39 IST" name="setup" finished-at="2022-09-05T08:38:41 IST" duration-ms="1923" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_ReturnRequest()[pri:0, instance:testCases.TC_019_ReturnRequest@43195e57]" started-at="2022-09-05T08:38:41 IST" name="test_ReturnRequest" finished-at="2022-09-05T08:38:59 IST" duration-ms="17621" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_ReturnRequest -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_019_ReturnRequest@43195e57]" started-at="2022-09-05T08:38:59 IST" name="teadDown" finished-at="2022-09-05T08:38:59 IST" duration-ms="208" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teadDown -->
-      </class> <!-- testCases.TC_019_ReturnRequest -->
       <class name="testCases.TC_003_LoginDDT">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@7193666c]" started-at="2022-09-05T08:28:33 IST" name="setup" finished-at="2022-09-05T08:28:35 IST" duration-ms="2088" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@6a192cfe]" started-at="2022-12-12T10:58:41 IST" name="setup" finished-at="2022-12-12T10:58:49 IST" duration-ms="8001" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -178,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@7193666c]" started-at="2022-09-05T08:28:44 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-09-05T08:28:53 IST" duration-ms="9272" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@6a192cfe]" started-at="2022-12-12T10:58:54 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-12-12T10:59:01 IST" duration-ms="6453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -199,7 +179,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@7193666c]" started-at="2022-09-05T08:28:53 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-09-05T08:29:08 IST" duration-ms="14619" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@6a192cfe]" started-at="2022-12-12T10:59:01 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-12-12T10:59:13 IST" duration-ms="12720" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -220,7 +200,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@7193666c]" started-at="2022-09-05T08:29:08 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-09-05T08:29:22 IST" duration-ms="13866" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@6a192cfe]" started-at="2022-12-12T10:59:13 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-12-12T10:59:26 IST" duration-ms="12905" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,7 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@7193666c]" started-at="2022-09-05T08:29:22 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-09-05T08:29:35 IST" duration-ms="12818" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@6a192cfe]" started-at="2022-12-12T10:59:26 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-12-12T10:59:40 IST" duration-ms="14187" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -262,13 +242,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_003_LoginDDT@7193666c]" started-at="2022-09-05T08:29:35 IST" name="teadDown" finished-at="2022-09-05T08:29:35 IST" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_003_LoginDDT@6a192cfe]" started-at="2022-12-12T10:59:40 IST" name="teadDown" finished-at="2022-12-12T10:59:46 IST" duration-ms="5179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_003_LoginDDT -->
-      <class name="testCases.TC_016_Order_History">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_016_Order_History@1afd44cb]" started-at="2022-09-05T08:37:29 IST" name="setup" finished-at="2022-09-05T08:37:31 IST" duration-ms="2007" status="PASS">
+      <class name="testCases.TC_019_ReturnRequest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_019_ReturnRequest@1afd44cb]" started-at="2022-12-12T11:07:03 IST" name="setup" finished-at="2022-12-12T11:07:06 IST" duration-ms="2774" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -279,17 +259,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Order_History()[pri:0, instance:testCases.TC_016_Order_History@1afd44cb]" started-at="2022-09-05T08:37:31 IST" name="test_Order_History" finished-at="2022-09-05T08:37:58 IST" duration-ms="27261" status="PASS">
+        <test-method signature="test_ReturnRequest()[pri:0, instance:testCases.TC_019_ReturnRequest@1afd44cb]" started-at="2022-12-12T11:07:06 IST" name="test_ReturnRequest" finished-at="2022-12-12T11:07:20 IST" duration-ms="14575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ReturnRequest -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_019_ReturnRequest@1afd44cb]" started-at="2022-12-12T11:07:20 IST" name="teadDown" finished-at="2022-12-12T11:07:21 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_019_ReturnRequest -->
+      <class name="testCases.TC_016_Order_History">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_016_Order_History@5f058f00]" started-at="2022-12-12T11:05:49 IST" name="setup" finished-at="2022-12-12T11:05:51 IST" duration-ms="2731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Order_History()[pri:0, instance:testCases.TC_016_Order_History@5f058f00]" started-at="2022-12-12T11:05:51 IST" name="test_Order_History" finished-at="2022-12-12T11:06:19 IST" duration-ms="28046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Order_History -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_016_Order_History@1afd44cb]" started-at="2022-09-05T08:37:58 IST" name="teadDown" finished-at="2022-09-05T08:37:58 IST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_016_Order_History@5f058f00]" started-at="2022-12-12T11:06:19 IST" name="teadDown" finished-at="2022-12-12T11:06:19 IST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_016_Order_History -->
       <class name="testCases.TC_015_AddressBook">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_015_AddressBook@72057ecf]" started-at="2022-09-05T08:36:55 IST" name="setup" finished-at="2022-09-05T08:36:57 IST" duration-ms="2338" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_015_AddressBook@55b7a4e0]" started-at="2022-12-12T11:05:18 IST" name="setup" finished-at="2022-12-12T11:05:21 IST" duration-ms="2991" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -300,17 +301,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_AddressBook()[pri:0, instance:testCases.TC_015_AddressBook@72057ecf]" started-at="2022-09-05T08:36:57 IST" name="test_AddressBook" finished-at="2022-09-05T08:37:28 IST" duration-ms="31156" status="PASS">
+        <test-method signature="test_AddressBook()[pri:0, instance:testCases.TC_015_AddressBook@55b7a4e0]" started-at="2022-12-12T11:05:21 IST" name="test_AddressBook" finished-at="2022-12-12T11:05:48 IST" duration-ms="26882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_AddressBook -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_015_AddressBook@72057ecf]" started-at="2022-09-05T08:37:28 IST" name="teadDown" finished-at="2022-09-05T08:37:29 IST" duration-ms="474" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_015_AddressBook@55b7a4e0]" started-at="2022-12-12T11:05:48 IST" name="teadDown" finished-at="2022-12-12T11:05:49 IST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_015_AddressBook -->
       <class name="testCases.TC_001_AccountRegistrationPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationPage@6a192cfe]" started-at="2022-09-05T08:26:47 IST" name="setup" finished-at="2022-09-05T08:27:07 IST" duration-ms="20055" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationPage@188715b5]" started-at="2022-12-12T10:58:04 IST" name="setup" finished-at="2022-12-12T10:58:12 IST" duration-ms="7749" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -321,17 +322,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@6a192cfe]" started-at="2022-09-05T08:27:07 IST" name="test_Account_Registration" finished-at="2022-09-05T08:27:59 IST" duration-ms="51791" status="PASS">
+        <test-method signature="test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@188715b5]" started-at="2022-12-12T10:58:12 IST" name="test_Account_Registration" finished-at="2022-12-12T10:58:28 IST" duration-ms="16144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Account_Registration -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@6a192cfe]" started-at="2022-09-05T08:27:59 IST" name="teadDown" finished-at="2022-09-05T08:28:01 IST" duration-ms="1086" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@188715b5]" started-at="2022-12-12T10:58:28 IST" name="teadDown" finished-at="2022-12-12T10:58:28 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_001_AccountRegistrationPage -->
       <class name="testCases.TC_021_RecurringPayment">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_021_RecurringPayment@479d31f3]" started-at="2022-09-05T08:39:19 IST" name="setup" finished-at="2022-09-05T08:39:21 IST" duration-ms="1891" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_021_RecurringPayment@1ab3a8c8]" started-at="2022-12-12T11:07:45 IST" name="setup" finished-at="2022-12-12T11:07:48 IST" duration-ms="2904" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -342,17 +343,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_RecurringPayment()[pri:0, instance:testCases.TC_021_RecurringPayment@479d31f3]" started-at="2022-09-05T08:39:21 IST" name="test_RecurringPayment" finished-at="2022-09-05T08:39:37 IST" duration-ms="16632" status="PASS">
+        <test-method signature="test_RecurringPayment()[pri:0, instance:testCases.TC_021_RecurringPayment@1ab3a8c8]" started-at="2022-12-12T11:07:48 IST" name="test_RecurringPayment" finished-at="2022-12-12T11:08:03 IST" duration-ms="14500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_RecurringPayment -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_021_RecurringPayment@479d31f3]" started-at="2022-09-05T08:39:37 IST" name="teadDown" finished-at="2022-09-05T08:39:38 IST" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_021_RecurringPayment@1ab3a8c8]" started-at="2022-12-12T11:08:03 IST" name="teadDown" finished-at="2022-12-12T11:08:03 IST" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_021_RecurringPayment -->
       <class name="testCases.TC_010_ShoppingCart">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_010_ShoppingCart@56620197]" started-at="2022-09-05T08:32:56 IST" name="setup" finished-at="2022-09-05T08:32:58 IST" duration-ms="1866" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_010_ShoppingCart@20ce78ec]" started-at="2022-12-12T11:02:45 IST" name="setup" finished-at="2022-12-12T11:02:48 IST" duration-ms="3504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -363,17 +364,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_ShoppingCart()[pri:0, instance:testCases.TC_010_ShoppingCart@56620197]" started-at="2022-09-05T08:32:58 IST" name="test_ShoppingCart" finished-at="2022-09-05T08:34:16 IST" duration-ms="78317" status="PASS">
+        <test-method signature="test_ShoppingCart()[pri:0, instance:testCases.TC_010_ShoppingCart@20ce78ec]" started-at="2022-12-12T11:02:48 IST" name="test_ShoppingCart" finished-at="2022-12-12T11:03:41 IST" duration-ms="52381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_ShoppingCart -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_010_ShoppingCart@56620197]" started-at="2022-09-05T08:34:16 IST" name="teadDown" finished-at="2022-09-05T08:34:17 IST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_010_ShoppingCart@20ce78ec]" started-at="2022-12-12T11:03:41 IST" name="teadDown" finished-at="2022-12-12T11:03:45 IST" duration-ms="4630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_010_ShoppingCart -->
-      <class name="testCases.TC_011_Checkout">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_011_Checkout@6eda5c9]" started-at="2022-09-05T08:34:17 IST" name="setup" finished-at="2022-09-05T08:34:20 IST" duration-ms="2924" status="PASS">
+      <class name="testCases.TC_005_Forgot_Password">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_Forgot_Password@7193666c]" started-at="2022-12-12T11:00:10 IST" name="setup" finished-at="2022-12-12T11:00:14 IST" duration-ms="4754" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -384,59 +385,61 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Checkout()[pri:0, instance:testCases.TC_011_Checkout@6eda5c9]" started-at="2022-09-05T08:34:20 IST" name="test_Checkout" finished-at="2022-09-05T08:35:10 IST" duration-ms="50082" status="PASS">
+        <test-method signature="test_Forgot_Password()[pri:0, instance:testCases.TC_005_Forgot_Password@7193666c]" started-at="2022-12-12T11:00:14 IST" name="test_Forgot_Password" finished-at="2022-12-12T11:00:38 IST" duration-ms="23858" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_Checkout -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_011_Checkout@6eda5c9]" started-at="2022-09-05T08:35:10 IST" name="teadDown" finished-at="2022-09-05T08:35:10 IST" duration-ms="28" status="FAIL">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
+        </test-method> <!-- test_Forgot_Password -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_005_Forgot_Password@7193666c]" started-at="2022-12-12T11:00:38 IST" name="teadDown" finished-at="2022-12-12T11:00:39 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_005_Forgot_Password -->
+      <class name="testCases.TC_025_FooterOption">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_025_FooterOption@40ef3420]" started-at="2022-12-12T11:09:25 IST" name="setup" finished-at="2022-12-12T11:10:28 IST" duration-ms="62226" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[unexpected alert open: {Alert text : SyntaxError: Unexpected token '<', "<b>Warning"... is not valid JSON
-OK
-<b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b><b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b>{"redirect":"http:\/\/localhost\/opencart\/upload\/index.php?route=checkout\/success"}}
-  (Session info: chrome=104.0.5112.102): SyntaxError: Unexpected token '<', "<b>Warning"... is not valid JSON
-OK
-<b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b><b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b>{"redirect":"http:\/\/localhost\/opencart\/upload\/index.php?route=checkout\/success"}
+              <![CDATA[Could not start a new session. Response code 500. Message: chrome not reachable
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-QUHMG70', ip: '192.168.250.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'DESKTOP-QUHMG70', ip: '192.168.39.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [45c5fcc23fb05d4e058f33ffd393607e, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:25388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:25388/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 45c5fcc23fb05d4e058f33ffd393607e]]>
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : SyntaxError: Unexpected token '<', "<b>Warning"... is not valid JSON
-OK
-<b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b><b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b>{"redirect":"http:\/\/localhost\/opencart\/upload\/index.php?route=checkout\/success"}}
-  (Session info: chrome=104.0.5112.102): SyntaxError: Unexpected token '<', "<b>Warning"... is not valid JSON
-OK
-<b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b><b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b>{"redirect":"http:\/\/localhost\/opencart\/upload\/index.php?route=checkout\/success"}
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: chrome not reachable
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-QUHMG70', ip: '192.168.250.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'DESKTOP-QUHMG70', ip: '192.168.39.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [45c5fcc23fb05d4e058f33ffd393607e, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:25388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:25388/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 45c5fcc23fb05d4e058f33ffd393607e
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:452)
-at testBase.BaseClass.teadDown(BaseClass.java:68)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
+at testBase.BaseClass.setup(BaseClass.java:42)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
@@ -455,55 +458,77 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teadDown -->
-      </class> <!-- testCases.TC_011_Checkout -->
-      <class name="testCases.TC_005_Forgot_Password">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_Forgot_Password@3835c46]" started-at="2022-09-05T08:30:06 IST" name="setup" finished-at="2022-09-05T08:30:07 IST" duration-ms="1946" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Forgot_Password()[pri:0, instance:testCases.TC_005_Forgot_Password@3835c46]" started-at="2022-09-05T08:30:07 IST" name="test_Forgot_Password" finished-at="2022-09-05T08:30:37 IST" duration-ms="29684" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Forgot_Password -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_005_Forgot_Password@3835c46]" started-at="2022-09-05T08:30:37 IST" name="teadDown" finished-at="2022-09-05T08:30:37 IST" duration-ms="316" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teadDown -->
-      </class> <!-- testCases.TC_005_Forgot_Password -->
-      <class name="testCases.TC_025_FooterOption">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_025_FooterOption@402bba4f]" started-at="2022-09-05T08:41:15 IST" name="setup" finished-at="2022-09-05T08:41:16 IST" duration-ms="1759" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_FooterOption()[pri:0, instance:testCases.TC_025_FooterOption@402bba4f]" started-at="2022-09-05T08:41:16 IST" name="test_FooterOption" finished-at="2022-09-05T08:41:41 IST" duration-ms="25093" status="PASS">
+        <test-method signature="test_FooterOption()[pri:0, instance:testCases.TC_025_FooterOption@40ef3420]" started-at="2022-12-12T11:10:28 IST" name="test_FooterOption" finished-at="2022-12-12T11:10:28 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: chrome not reachable
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-QUHMG70', ip: '192.168.39.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: chrome not reachable
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-QUHMG70', ip: '192.168.39.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
+at testBase.BaseClass.setup(BaseClass.java:42)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_FooterOption -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_025_FooterOption@402bba4f]" started-at="2022-09-05T08:41:41 IST" name="teadDown" finished-at="2022-09-05T08:41:43 IST" duration-ms="1292" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_025_FooterOption@40ef3420]" started-at="2022-12-12T11:10:28 IST" name="teadDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1670823628091" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_025_FooterOption -->
       <class name="testCases.TC_017_Downloads">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_017_Downloads@6973b51b]" started-at="2022-09-05T08:37:58 IST" name="setup" finished-at="2022-09-05T08:38:01 IST" duration-ms="2892" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_017_Downloads@192d43ce]" started-at="2022-12-12T11:06:19 IST" name="setup" finished-at="2022-12-12T11:06:23 IST" duration-ms="3596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -514,17 +539,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Downloads()[pri:0, instance:testCases.TC_017_Downloads@6973b51b]" started-at="2022-09-05T08:38:01 IST" name="test_Downloads" finished-at="2022-09-05T08:38:23 IST" duration-ms="21348" status="PASS">
+        <test-method signature="test_Downloads()[pri:0, instance:testCases.TC_017_Downloads@192d43ce]" started-at="2022-12-12T11:06:23 IST" name="test_Downloads" finished-at="2022-12-12T11:06:42 IST" duration-ms="19124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Downloads -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_017_Downloads@6973b51b]" started-at="2022-09-05T08:38:23 IST" name="teadDown" finished-at="2022-09-05T08:38:23 IST" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_017_Downloads@192d43ce]" started-at="2022-12-12T11:06:42 IST" name="teadDown" finished-at="2022-12-12T11:06:42 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_017_Downloads -->
       <class name="testCases.TC_008_ProductDisplayPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_008_ProductDisplayPage@20ce78ec]" started-at="2022-09-05T08:31:24 IST" name="setup" finished-at="2022-09-05T08:31:26 IST" duration-ms="1935" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_008_ProductDisplayPage@1dde4cb2]" started-at="2022-12-12T11:01:23 IST" name="setup" finished-at="2022-12-12T11:01:27 IST" duration-ms="4496" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -535,17 +560,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_productdisplaypage()[pri:0, instance:testCases.TC_008_ProductDisplayPage@20ce78ec]" started-at="2022-09-05T08:31:26 IST" name="test_productdisplaypage" finished-at="2022-09-05T08:32:03 IST" duration-ms="36765" status="PASS">
+        <test-method signature="test_productdisplaypage()[pri:0, instance:testCases.TC_008_ProductDisplayPage@1dde4cb2]" started-at="2022-12-12T11:01:27 IST" name="test_productdisplaypage" finished-at="2022-12-12T11:02:00 IST" duration-ms="32767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_productdisplaypage -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_008_ProductDisplayPage@20ce78ec]" started-at="2022-09-05T08:32:03 IST" name="teadDown" finished-at="2022-09-05T08:32:06 IST" duration-ms="2787" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_008_ProductDisplayPage@1dde4cb2]" started-at="2022-12-12T11:02:00 IST" name="teadDown" finished-at="2022-12-12T11:02:01 IST" duration-ms="717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_008_ProductDisplayPage -->
       <class name="testCases.TC_006_AddToCart">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_006_AddToCart@1dde4cb2]" started-at="2022-09-05T08:30:37 IST" name="setup" finished-at="2022-09-05T08:30:40 IST" duration-ms="2867" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_006_AddToCart@20deea7f]" started-at="2022-12-12T11:00:39 IST" name="setup" finished-at="2022-12-12T11:00:42 IST" duration-ms="3876" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -556,17 +581,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_AddToCart()[pri:0, instance:testCases.TC_006_AddToCart@1dde4cb2]" started-at="2022-09-05T08:30:40 IST" name="test_AddToCart" finished-at="2022-09-05T08:30:58 IST" duration-ms="18006" status="PASS">
+        <test-method signature="test_AddToCart()[pri:0, instance:testCases.TC_006_AddToCart@20deea7f]" started-at="2022-12-12T11:00:42 IST" name="test_AddToCart" finished-at="2022-12-12T11:00:58 IST" duration-ms="15919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_AddToCart -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_006_AddToCart@1dde4cb2]" started-at="2022-09-05T08:30:58 IST" name="teadDown" finished-at="2022-09-05T08:30:59 IST" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_006_AddToCart@20deea7f]" started-at="2022-12-12T11:00:58 IST" name="teadDown" finished-at="2022-12-12T11:00:59 IST" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_006_AddToCart -->
       <class name="testCases.TC_020_Transactions">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_020_Transactions@333291e3]" started-at="2022-09-05T08:38:59 IST" name="setup" finished-at="2022-09-05T08:39:01 IST" duration-ms="1829" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_020_Transactions@6973b51b]" started-at="2022-12-12T11:07:21 IST" name="setup" finished-at="2022-12-12T11:07:24 IST" duration-ms="3175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -577,17 +602,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Transactions()[pri:0, instance:testCases.TC_020_Transactions@333291e3]" started-at="2022-09-05T08:39:01 IST" name="test_Transactions" finished-at="2022-09-05T08:39:18 IST" duration-ms="17740" status="PASS">
+        <test-method signature="test_Transactions()[pri:0, instance:testCases.TC_020_Transactions@6973b51b]" started-at="2022-12-12T11:07:24 IST" name="test_Transactions" finished-at="2022-12-12T11:07:44 IST" duration-ms="20232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Transactions -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_020_Transactions@333291e3]" started-at="2022-09-05T08:39:18 IST" name="teadDown" finished-at="2022-09-05T08:39:19 IST" duration-ms="389" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_020_Transactions@6973b51b]" started-at="2022-12-12T11:07:44 IST" name="teadDown" finished-at="2022-12-12T11:07:45 IST" duration-ms="1169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_020_Transactions -->
       <class name="testCases.TC_024_ContactUs">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_024_ContactUs@6e171cd7]" started-at="2022-09-05T08:40:39 IST" name="setup" finished-at="2022-09-05T08:40:43 IST" duration-ms="3971" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_024_ContactUs@479d31f3]" started-at="2022-12-12T11:08:57 IST" name="setup" finished-at="2022-12-12T11:09:02 IST" duration-ms="4497" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -598,17 +623,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_ContactUs()[pri:0, instance:testCases.TC_024_ContactUs@6e171cd7]" started-at="2022-09-05T08:40:43 IST" name="test_ContactUs" finished-at="2022-09-05T08:41:14 IST" duration-ms="31255" status="PASS">
+        <test-method signature="test_ContactUs()[pri:0, instance:testCases.TC_024_ContactUs@479d31f3]" started-at="2022-12-12T11:09:02 IST" name="test_ContactUs" finished-at="2022-12-12T11:09:25 IST" duration-ms="23185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_ContactUs -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_024_ContactUs@6e171cd7]" started-at="2022-09-05T08:41:14 IST" name="teadDown" finished-at="2022-09-05T08:41:15 IST" duration-ms="463" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_024_ContactUs@479d31f3]" started-at="2022-12-12T11:09:25 IST" name="teadDown" finished-at="2022-12-12T11:09:25 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_024_ContactUs -->
       <class name="testCases.TC_018_RewardsPoint">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_018_RewardsPoint@1ab3a8c8]" started-at="2022-09-05T08:38:23 IST" name="setup" finished-at="2022-09-05T08:38:24 IST" duration-ms="1703" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_018_RewardsPoint@72057ecf]" started-at="2022-12-12T11:06:42 IST" name="setup" finished-at="2022-12-12T11:06:46 IST" duration-ms="3381" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -619,17 +644,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_RewardsPoint()[pri:0, instance:testCases.TC_018_RewardsPoint@1ab3a8c8]" started-at="2022-09-05T08:38:24 IST" name="test_RewardsPoint" finished-at="2022-09-05T08:38:39 IST" duration-ms="14503" status="PASS">
+        <test-method signature="test_RewardsPoint()[pri:0, instance:testCases.TC_018_RewardsPoint@72057ecf]" started-at="2022-12-12T11:06:46 IST" name="test_RewardsPoint" finished-at="2022-12-12T11:07:03 IST" duration-ms="17064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_RewardsPoint -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_018_RewardsPoint@1ab3a8c8]" started-at="2022-09-05T08:38:39 IST" name="teadDown" finished-at="2022-09-05T08:38:39 IST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_018_RewardsPoint@72057ecf]" started-at="2022-12-12T11:07:03 IST" name="teadDown" finished-at="2022-12-12T11:07:03 IST" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_018_RewardsPoint -->
       <class name="testCases.TC_002_Login">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@5119fb47]" started-at="2022-09-05T08:28:01 IST" name="setup" finished-at="2022-09-05T08:28:06 IST" duration-ms="5738" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@1ea9f6af]" started-at="2022-12-12T10:58:28 IST" name="setup" finished-at="2022-12-12T10:58:31 IST" duration-ms="2967" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -640,17 +665,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_Login@5119fb47]" started-at="2022-09-05T08:28:06 IST" name="test_Login" finished-at="2022-09-05T08:28:33 IST" duration-ms="26762" status="PASS">
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_Login@1ea9f6af]" started-at="2022-12-12T10:58:31 IST" name="test_Login" finished-at="2022-12-12T10:58:40 IST" duration-ms="8906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Login -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_002_Login@5119fb47]" started-at="2022-09-05T08:28:33 IST" name="teadDown" finished-at="2022-09-05T08:28:33 IST" duration-ms="295" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_002_Login@1ea9f6af]" started-at="2022-12-12T10:58:40 IST" name="teadDown" finished-at="2022-12-12T10:58:41 IST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_002_Login -->
       <class name="testCases.TC_007_CompareProduct">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_007_CompareProduct@7714e963]" started-at="2022-09-05T08:30:59 IST" name="setup" finished-at="2022-09-05T08:31:01 IST" duration-ms="2171" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_007_CompareProduct@3835c46]" started-at="2022-12-12T11:00:59 IST" name="setup" finished-at="2022-12-12T11:01:02 IST" duration-ms="3465" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -661,17 +686,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_compareproduct()[pri:0, instance:testCases.TC_007_CompareProduct@7714e963]" started-at="2022-09-05T08:31:01 IST" name="test_compareproduct" finished-at="2022-09-05T08:31:23 IST" duration-ms="22359" status="PASS">
+        <test-method signature="test_compareproduct()[pri:0, instance:testCases.TC_007_CompareProduct@3835c46]" started-at="2022-12-12T11:01:02 IST" name="test_compareproduct" finished-at="2022-12-12T11:01:23 IST" duration-ms="20571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_compareproduct -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_007_CompareProduct@7714e963]" started-at="2022-09-05T08:31:23 IST" name="teadDown" finished-at="2022-09-05T08:31:24 IST" duration-ms="630" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_007_CompareProduct@3835c46]" started-at="2022-12-12T11:01:23 IST" name="teadDown" finished-at="2022-12-12T11:01:23 IST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_007_CompareProduct -->
       <class name="testCases.TC_009_WishList">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_009_WishList@393671df]" started-at="2022-09-05T08:32:06 IST" name="setup" finished-at="2022-09-05T08:32:09 IST" duration-ms="3431" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_009_WishList@7714e963]" started-at="2022-12-12T11:02:01 IST" name="setup" finished-at="2022-12-12T11:02:04 IST" duration-ms="3411" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -682,17 +707,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_wishlist()[pri:0, instance:testCases.TC_009_WishList@393671df]" started-at="2022-09-05T08:32:09 IST" name="test_wishlist" finished-at="2022-09-05T08:32:55 IST" duration-ms="46104" status="PASS">
+        <test-method signature="test_wishlist()[pri:0, instance:testCases.TC_009_WishList@7714e963]" started-at="2022-12-12T11:02:04 IST" name="test_wishlist" finished-at="2022-12-12T11:02:41 IST" duration-ms="36222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_wishlist -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_009_WishList@393671df]" started-at="2022-09-05T08:32:55 IST" name="teadDown" finished-at="2022-09-05T08:32:56 IST" duration-ms="1161" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_009_WishList@7714e963]" started-at="2022-12-12T11:02:41 IST" name="teadDown" finished-at="2022-12-12T11:02:45 IST" duration-ms="4228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_009_WishList -->
       <class name="testCases.TC_023_Affiliate">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_023_Affiliate@498d318c]" started-at="2022-09-05T08:40:03 IST" name="setup" finished-at="2022-09-05T08:40:05 IST" duration-ms="2576" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_023_Affiliate@333291e3]" started-at="2022-12-12T11:08:27 IST" name="setup" finished-at="2022-12-12T11:08:29 IST" duration-ms="2864" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -703,11 +728,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Affiliate()[pri:0, instance:testCases.TC_023_Affiliate@498d318c]" started-at="2022-09-05T08:40:05 IST" name="test_Affiliate" finished-at="2022-09-05T08:40:39 IST" duration-ms="33483" status="PASS">
+        <test-method signature="test_Affiliate()[pri:0, instance:testCases.TC_023_Affiliate@333291e3]" started-at="2022-12-12T11:08:29 IST" name="test_Affiliate" finished-at="2022-12-12T11:08:57 IST" duration-ms="27732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Affiliate -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_023_Affiliate@498d318c]" started-at="2022-09-05T08:40:39 IST" name="teadDown" finished-at="2022-09-05T08:40:39 IST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_023_Affiliate@333291e3]" started-at="2022-12-12T11:08:57 IST" name="teadDown" finished-at="2022-12-12T11:08:57 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->

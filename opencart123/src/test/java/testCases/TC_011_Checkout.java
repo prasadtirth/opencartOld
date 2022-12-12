@@ -1,12 +1,10 @@
 package testCases;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import pageObject.Checkout;
+import pageObject.CheckoutCopy;
 import pageObject.HomePage;
 import testBase.BaseClass;
 
@@ -15,114 +13,61 @@ public class TC_011_Checkout extends BaseClass {
 	
 	public void test_Checkout() throws InterruptedException {
 		
-		logger.info("Starting TC_010_ShoppingCart");
-		try
-		{
+		logger.info("Starting TC_011_Checkout");
+	try
+	{	
 		driver.get(rb.getString("appURL"));
-		HomePage hp=  new HomePage(driver);
-	    logger.info("Home Page Displayed ");
-	    
+			 
 	    driver.manage().window().maximize();
+	    Thread.sleep(3000);
+	    HomePage hp = new HomePage(driver);
 	    
-	    Checkout co= new Checkout(driver);
-	    
-	    co.search_txt("imac");
+	    CheckoutCopy coc= new CheckoutCopy(driver);	    
+	  	   
+	    coc.search_txt("iMac");
+	    Thread.sleep(2000);
 	    logger.info("Enter Any Product");
 	    Thread.sleep(1000);	
-	    
-	    co.search_button();
+	                                                      
+	    coc.search_btn();
 	    logger.info("Clicked OnThe Search Button Icon");
-	    Thread.sleep(1000);
-	    
-	    co.searched_product();
+	    Thread.sleep(1000);	    
+	
+
+        coc.searched_product();
 	    logger.info("clicked On The Searched Product");
 	    Thread.sleep(1000);
 	    
-	    co.add_to_cart();
-	    logger.info("Clicked On Add To Cart");
+	    coc.add_to_cart();
+	    logger.info("Cliked on the Add to Cart");
 	    Thread.sleep(1000);
 	    
-	    co.view_cart();
+	    coc.view_cart();
 	    logger.info("Clicked on the View Cart");
-	    Thread.sleep(2000);
+	    Thread.sleep(1000);
 	    
-	    co.check_out();
-	    logger.info("Clicked on The Checkout");
-	    Thread.sleep(2000);
+	    coc.check_out();
+	    logger.info("Clicked On The Checkout");
+	    Thread.sleep(1000);
+	   
+	    coc.register_account();
+	    logger.info("Clicked On The Register Account");
+	    Thread.sleep(1000);
+	
+	    coc.setEmail("prasadtirth9006@gmail.com");
+//	    coc.setEmail(randomestring1()+"@gmail.com");
+	    logger.info("Provied Email");
+	    Thread.sleep(1000);
 	    
-	/*    co.register_account();
-	    logger.info("Clicked On The REgister Accountt");
-	    Thread.sleep(2000);
-	    
-	    co.guess_chckout();
-	    logger.info("Clicked on The Guess Account");
-	    Thread.sleep(3000);
-	    
-	    co.button0();
-	    logger.info("Clicked On The Continue Button");
-	    Thread.sleep(5000);    
-	    
-	  
-	    
-	    co.setEmail(rb.getString("prasadtirth9006@gmail.com"));
-	    logger.info("Provided Email");
-	    
-	    co.setPassword(rb.getString("test123"));
-	    logger.info("Provided  Password");
-	    
-	    co.clickLogin();
-	    logger.info("Clicked on Login");    */
-	    
-	    co.setEmail("prasadtirth9006@gmail.com");
-	    logger.info("Email Provided");
-	    
-	    co.setPassword("test1234");
-	    logger.info("Password Provided");
-	    
-	    co.clickLogin();
+	    coc.setPassword("test1234");
+	    logger.info("Provided Password");
+	    Thread.sleep(1000);
+		       
+	    coc.clickLogin();
 	    logger.info("Clicked On The Login");
+	    Thread.sleep(1000);
 	    
-        co.button1();
-	    Thread.sleep(2000);
 	    
-	    co.button2();
-	    Thread.sleep(3000);
-	    
-		co.button3();
-		Thread.sleep(3000);
-		
-		co.checkbox_click();
-		Thread.sleep(1000);
-		
-		co.button4();
-		Thread.sleep(2000);
-		
-		co.continueorder();
-		Thread.sleep(3000);   
-		
-		/*	Alert alert = driver.switchTo().alert();
-		Thread.sleep(3000);
-		alert.accept();            */
-		
-		co.continueorder();
-		Thread.sleep(2000);      
-		
-	    boolean targetpage=co.isPagExists();
-	    
-	    if(targetpage)
-	    {
-	    	logger.info("Checkout Failed ");
-	    	captureScreen(driver, "test_checkout");
-			Assert.assertTrue(false);   	
-	    }
-	    
-	    else
-		{
-	    	 logger.info("Checkout Success ");			
-				Assert.assertTrue(true);
-	    	
-	    	
-		}
 	}	
 	catch(Exception e)
 	{

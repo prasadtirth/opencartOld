@@ -28,7 +28,7 @@ public class BaseClass
 	 public Logger logger;//for Logging
 	 public ResourceBundle rb;//to read config.properties
        
-    @BeforeClass
+    @BeforeClass(groups= {"sanity","regression","master"})
     @Parameters({"browser"})
         public void setup( String br) 
       {
@@ -61,7 +61,7 @@ public class BaseClass
    	
       }
    
-    @AfterClass
+    @AfterClass(groups= {"sanity","regression","master"})
     
     public void teadDown()
     {

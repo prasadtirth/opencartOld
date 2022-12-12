@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">29 methods,   29 passed</span>
+                    <span class="method-stats">28 methods,  1 skipped,  27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_025_FooterOption" class="method navigator-link" hash-for-method="test_FooterOption">test_FooterOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -127,22 +141,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_011_Checkout" class="method navigator-link" hash-for-method="test_Checkout">test_Checkout</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC_024_ContactUs" class="method navigator-link" hash-for-method="test_ContactUs">test_ContactUs</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC_017_Downloads" class="method navigator-link" hash-for-method="test_Downloads">test_Downloads</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_025_FooterOption" class="method navigator-link" hash-for-method="test_FooterOption">test_FooterOption</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -167,12 +171,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoginDDT" class="method navigator-link" hash-for-method="test_LoginDDT(onkarpatil@gmail.com, Onkar, Invalid)">test_LoginDDT(onkarpatil@gmail.com, Onkar, Invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoginDDT" class="method navigator-link" hash-for-method="test_LoginDDT(onkarpatil1234@gmail.com, Onkar@1234, Valid)">test_LoginDDT(onkarpatil1234@gmail.com, Onkar@1234, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoginDDT" class="method navigator-link" hash-for-method="test_LoginDDT(onkarpatil1234@gmail.com, Onkar@1234, Valid)">test_LoginDDT(onkarpatil1234@gmail.com, Onkar@1234, Valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoginDDT" class="method navigator-link" hash-for-method="test_LoginDDT(onkarpatil@gmail.com, Onkar, Invalid)">test_LoginDDT(onkarpatil@gmail.com, Onkar, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -257,21 +261,43 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_024_ContactUs</span>
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.TC_025_FooterOption</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_ContactUs">
-                  </a> <!-- test_ContactUs -->
-                  <span class="method-name">test_ContactUs</span>
+                  <a name="test_FooterOption">
+                  </a> <!-- test_FooterOption -->
+                  <span class="method-name">test_FooterOption</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: chrome not reachable
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;DESKTOP-QUHMG70&apos;, ip: &apos;192.168.39.176&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:164)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:48)
+	at testBase.BaseClass.setup(BaseClass.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -290,14 +316,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_011_Checkout</span>
+              <span class="class-name">testCases.TC_012_MyAccount</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_Checkout">
-                  </a> <!-- test_Checkout -->
-                  <span class="method-name">test_Checkout</span>
+                  <a name="test_MyAccount">
+                  </a> <!-- test_MyAccount -->
+                  <span class="method-name">test_MyAccount</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -350,29 +376,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_027_GiftCertificate</span>
+              <span class="class-name">testCases.TC_021_RecurringPayment</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_GiftCertificate">
-                  </a> <!-- test_GiftCertificate -->
-                  <span class="method-name">test_GiftCertificate</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_020_Transactions</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Transactions">
-                  </a> <!-- test_Transactions -->
-                  <span class="method-name">test_Transactions</span>
+                  <a name="test_RecurringPayment">
+                  </a> <!-- test_RecurringPayment -->
+                  <span class="method-name">test_RecurringPayment</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -395,14 +406,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_016_Order_History</span>
+              <span class="class-name">testCases.TC_017_Downloads</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_Order_History">
-                  </a> <!-- test_Order_History -->
-                  <span class="method-name">test_Order_History</span>
+                  <a name="test_Downloads">
+                  </a> <!-- test_Downloads -->
+                  <span class="method-name">test_Downloads</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -423,18 +434,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test_LoginDDT(onkarpatil@gmail.com, Onkar, Invalid)">
-                  </a> <!-- test_LoginDDT(onkarpatil@gmail.com, Onkar, Invalid) -->
-                  <span class="method-name">test_LoginDDT</span>
-                  <span class="parameters">(onkarpatil@gmail.com, Onkar, Invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="test_LoginDDT(onkarpatil1234@gmail.com, Onkar@1234, Valid)">
                   </a> <!-- test_LoginDDT(onkarpatil1234@gmail.com, Onkar@1234, Valid) -->
                   <span class="method-name">test_LoginDDT</span>
                   <span class="parameters">(onkarpatil1234@gmail.com, Onkar@1234, Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_LoginDDT(onkarpatil@gmail.com, Onkar, Invalid)">
+                  </a> <!-- test_LoginDDT(onkarpatil@gmail.com, Onkar, Invalid) -->
+                  <span class="method-name">test_LoginDDT</span>
+                  <span class="parameters">(onkarpatil@gmail.com, Onkar, Invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -465,164 +476,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_023_Affiliate</span>
+              <span class="class-name">testCases.TC_024_ContactUs</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_Affiliate">
-                  </a> <!-- test_Affiliate -->
-                  <span class="method-name">test_Affiliate</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_017_Downloads</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Downloads">
-                  </a> <!-- test_Downloads -->
-                  <span class="method-name">test_Downloads</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_013_MyAccountInformation</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_MyAccountInformation">
-                  </a> <!-- test_MyAccountInformation -->
-                  <span class="method-name">test_MyAccountInformation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_004_Search</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_search">
-                  </a> <!-- test_search -->
-                  <span class="method-name">test_search</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_005_Forgot_Password</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Forgot_Password">
-                  </a> <!-- test_Forgot_Password -->
-                  <span class="method-name">test_Forgot_Password</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_022_NewsLetter</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_NewsLetter">
-                  </a> <!-- test_NewsLetter -->
-                  <span class="method-name">test_NewsLetter</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_019_ReturnRequest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_ReturnRequest">
-                  </a> <!-- test_ReturnRequest -->
-                  <span class="method-name">test_ReturnRequest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_021_RecurringPayment</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_RecurringPayment">
-                  </a> <!-- test_RecurringPayment -->
-                  <span class="method-name">test_RecurringPayment</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_025_FooterOption</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_FooterOption">
-                  </a> <!-- test_FooterOption -->
-                  <span class="method-name">test_FooterOption</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_012_MyAccount</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_MyAccount">
-                  </a> <!-- test_MyAccount -->
-                  <span class="method-name">test_MyAccount</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_001_AccountRegistrationPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Account_Registration">
-                  </a> <!-- test_Account_Registration -->
-                  <span class="method-name">test_Account_Registration</span>
+                  <a name="test_ContactUs">
+                  </a> <!-- test_ContactUs -->
+                  <span class="method-name">test_ContactUs</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -653,6 +514,156 @@
                   <a name="test_Change_password">
                   </a> <!-- test_Change_password -->
                   <span class="method-name">test_Change_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_004_Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_search">
+                  </a> <!-- test_search -->
+                  <span class="method-name">test_search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_023_Affiliate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Affiliate">
+                  </a> <!-- test_Affiliate -->
+                  <span class="method-name">test_Affiliate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_005_Forgot_Password</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Forgot_Password">
+                  </a> <!-- test_Forgot_Password -->
+                  <span class="method-name">test_Forgot_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_020_Transactions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Transactions">
+                  </a> <!-- test_Transactions -->
+                  <span class="method-name">test_Transactions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_022_NewsLetter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_NewsLetter">
+                  </a> <!-- test_NewsLetter -->
+                  <span class="method-name">test_NewsLetter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_027_GiftCertificate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_GiftCertificate">
+                  </a> <!-- test_GiftCertificate -->
+                  <span class="method-name">test_GiftCertificate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_013_MyAccountInformation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_MyAccountInformation">
+                  </a> <!-- test_MyAccountInformation -->
+                  <span class="method-name">test_MyAccountInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_001_AccountRegistrationPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Account_Registration">
+                  </a> <!-- test_Account_Registration -->
+                  <span class="method-name">test_Account_Registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_019_ReturnRequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ReturnRequest">
+                  </a> <!-- test_ReturnRequest -->
+                  <span class="method-name">test_ReturnRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_016_Order_History</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Order_History">
+                  </a> <!-- test_Order_History -->
+                  <span class="method-name">test_Order_History</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -698,7 +709,6 @@
       &lt;class name=&quot;testCases.TC_008_ProductDisplayPage&quot;/&gt;
       &lt;class name=&quot;testCases.TC_009_WishList&quot;/&gt;
       &lt;class name=&quot;testCases.TC_010_ShoppingCart&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_011_Checkout&quot;/&gt;
       &lt;class name=&quot;testCases.TC_012_MyAccount&quot;/&gt;
       &lt;class name=&quot;testCases.TC_013_MyAccountInformation&quot;/&gt;
       &lt;class name=&quot;testCases.TC_014_ChangePassword&quot;/&gt;
@@ -727,7 +737,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (26 classes)</span>
+                <span class="test-name">Test (25 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -764,6 +774,10 @@
                 <span class="method-in-group-name">test_Account_Registration</span>
                 <br/>
               </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_search</span>
+                <br/>
+              </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">sanity</span>
@@ -789,128 +803,124 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(29);
+data.addRows(28);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_ShoppingCart')
 data.setCell(0, 2, 'testCases.TC_010_ShoppingCart')
-data.setCell(0, 3, 78317);
+data.setCell(0, 3, 52381);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_Account_Registration')
-data.setCell(1, 2, 'testCases.TC_001_AccountRegistrationPage')
-data.setCell(1, 3, 51791);
+data.setCell(1, 1, 'test_wishlist')
+data.setCell(1, 2, 'testCases.TC_009_WishList')
+data.setCell(1, 3, 36222);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_Checkout')
-data.setCell(2, 2, 'testCases.TC_011_Checkout')
-data.setCell(2, 3, 50082);
+data.setCell(2, 1, 'test_GiftCertificate')
+data.setCell(2, 2, 'testCases.TC_027_GiftCertificate')
+data.setCell(2, 3, 35105);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_wishlist')
-data.setCell(3, 2, 'testCases.TC_009_WishList')
-data.setCell(3, 3, 46104);
+data.setCell(3, 1, 'test_productdisplaypage')
+data.setCell(3, 2, 'testCases.TC_008_ProductDisplayPage')
+data.setCell(3, 3, 32767);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'test_GiftCertificate')
-data.setCell(4, 2, 'testCases.TC_027_GiftCertificate')
-data.setCell(4, 3, 39292);
+data.setCell(4, 1, 'test_MyAccount')
+data.setCell(4, 2, 'testCases.TC_012_MyAccount')
+data.setCell(4, 3, 29522);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'test_productdisplaypage')
-data.setCell(5, 2, 'testCases.TC_008_ProductDisplayPage')
-data.setCell(5, 3, 36765);
+data.setCell(5, 1, 'test_Order_History')
+data.setCell(5, 2, 'testCases.TC_016_Order_History')
+data.setCell(5, 3, 28046);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'test_Change_password')
-data.setCell(6, 2, 'testCases.TC_014_ChangePassword')
-data.setCell(6, 3, 34231);
+data.setCell(6, 1, 'test_Affiliate')
+data.setCell(6, 2, 'testCases.TC_023_Affiliate')
+data.setCell(6, 3, 27732);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'test_Affiliate')
-data.setCell(7, 2, 'testCases.TC_023_Affiliate')
-data.setCell(7, 3, 33483);
+data.setCell(7, 1, 'test_AddressBook')
+data.setCell(7, 2, 'testCases.TC_015_AddressBook')
+data.setCell(7, 3, 26882);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'test_MyAccount')
-data.setCell(8, 2, 'testCases.TC_012_MyAccount')
-data.setCell(8, 3, 33077);
+data.setCell(8, 1, 'test_Change_password')
+data.setCell(8, 2, 'testCases.TC_014_ChangePassword')
+data.setCell(8, 3, 26860);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'test_ContactUs')
-data.setCell(9, 2, 'testCases.TC_024_ContactUs')
-data.setCell(9, 3, 31255);
+data.setCell(9, 1, 'test_Forgot_Password')
+data.setCell(9, 2, 'testCases.TC_005_Forgot_Password')
+data.setCell(9, 3, 23858);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'test_AddressBook')
-data.setCell(10, 2, 'testCases.TC_015_AddressBook')
-data.setCell(10, 3, 31156);
+data.setCell(10, 1, 'test_MyAccountInformation')
+data.setCell(10, 2, 'testCases.TC_013_MyAccountInformation')
+data.setCell(10, 3, 23445);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'test_Forgot_Password')
-data.setCell(11, 2, 'testCases.TC_005_Forgot_Password')
-data.setCell(11, 3, 29684);
+data.setCell(11, 1, 'test_ContactUs')
+data.setCell(11, 2, 'testCases.TC_024_ContactUs')
+data.setCell(11, 3, 23185);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'test_Order_History')
-data.setCell(12, 2, 'testCases.TC_016_Order_History')
-data.setCell(12, 3, 27261);
+data.setCell(12, 1, 'test_compareproduct')
+data.setCell(12, 2, 'testCases.TC_007_CompareProduct')
+data.setCell(12, 3, 20571);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'test_Login')
-data.setCell(13, 2, 'testCases.TC_002_Login')
-data.setCell(13, 3, 26762);
+data.setCell(13, 1, 'test_search')
+data.setCell(13, 2, 'testCases.TC_004_Search')
+data.setCell(13, 3, 20385);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'test_MyAccountInformation')
-data.setCell(14, 2, 'testCases.TC_013_MyAccountInformation')
-data.setCell(14, 3, 26682);
+data.setCell(14, 1, 'test_Transactions')
+data.setCell(14, 2, 'testCases.TC_020_Transactions')
+data.setCell(14, 3, 20232);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'test_search')
-data.setCell(15, 2, 'testCases.TC_004_Search')
-data.setCell(15, 3, 26133);
+data.setCell(15, 1, 'test_NewsLetter')
+data.setCell(15, 2, 'testCases.TC_022_NewsLetter')
+data.setCell(15, 3, 19958);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'test_FooterOption')
-data.setCell(16, 2, 'testCases.TC_025_FooterOption')
-data.setCell(16, 3, 25093);
+data.setCell(16, 1, 'test_Downloads')
+data.setCell(16, 2, 'testCases.TC_017_Downloads')
+data.setCell(16, 3, 19124);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'test_compareproduct')
-data.setCell(17, 2, 'testCases.TC_007_CompareProduct')
-data.setCell(17, 3, 22359);
+data.setCell(17, 1, 'test_RewardsPoint')
+data.setCell(17, 2, 'testCases.TC_018_RewardsPoint')
+data.setCell(17, 3, 17064);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'test_NewsLetter')
-data.setCell(18, 2, 'testCases.TC_022_NewsLetter')
-data.setCell(18, 3, 21753);
+data.setCell(18, 1, 'test_Account_Registration')
+data.setCell(18, 2, 'testCases.TC_001_AccountRegistrationPage')
+data.setCell(18, 3, 16144);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'test_Downloads')
-data.setCell(19, 2, 'testCases.TC_017_Downloads')
-data.setCell(19, 3, 21348);
+data.setCell(19, 1, 'test_AddToCart')
+data.setCell(19, 2, 'testCases.TC_006_AddToCart')
+data.setCell(19, 3, 15919);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'test_AddToCart')
-data.setCell(20, 2, 'testCases.TC_006_AddToCart')
-data.setCell(20, 3, 18006);
+data.setCell(20, 1, 'test_ReturnRequest')
+data.setCell(20, 2, 'testCases.TC_019_ReturnRequest')
+data.setCell(20, 3, 14575);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'test_Transactions')
-data.setCell(21, 2, 'testCases.TC_020_Transactions')
-data.setCell(21, 3, 17740);
+data.setCell(21, 1, 'test_RecurringPayment')
+data.setCell(21, 2, 'testCases.TC_021_RecurringPayment')
+data.setCell(21, 3, 14500);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'test_ReturnRequest')
-data.setCell(22, 2, 'testCases.TC_019_ReturnRequest')
-data.setCell(22, 3, 17621);
+data.setCell(22, 1, 'test_LoginDDT')
+data.setCell(22, 2, 'testCases.TC_003_LoginDDT')
+data.setCell(22, 3, 14187);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'test_RecurringPayment')
-data.setCell(23, 2, 'testCases.TC_021_RecurringPayment')
-data.setCell(23, 3, 16632);
+data.setCell(23, 1, 'test_LoginDDT')
+data.setCell(23, 2, 'testCases.TC_003_LoginDDT')
+data.setCell(23, 3, 12905);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'test_LoginDDT')
 data.setCell(24, 2, 'testCases.TC_003_LoginDDT')
-data.setCell(24, 3, 14619);
+data.setCell(24, 3, 12720);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'test_RewardsPoint')
-data.setCell(25, 2, 'testCases.TC_018_RewardsPoint')
-data.setCell(25, 3, 14503);
+data.setCell(25, 1, 'test_Login')
+data.setCell(25, 2, 'testCases.TC_002_Login')
+data.setCell(25, 3, 8906);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'test_LoginDDT')
 data.setCell(26, 2, 'testCases.TC_003_LoginDDT')
-data.setCell(26, 3, 13866);
+data.setCell(26, 3, 6453);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'test_LoginDDT')
-data.setCell(27, 2, 'testCases.TC_003_LoginDDT')
-data.setCell(27, 3, 12818);
-data.setCell(28, 0, 28)
-data.setCell(28, 1, 'test_LoginDDT')
-data.setCell(28, 2, 'testCases.TC_003_LoginDDT')
-data.setCell(28, 3, 9272);
+data.setCell(27, 1, 'test_FooterOption')
+data.setCell(27, 2, 'testCases.TC_025_FooterOption')
+data.setCell(27, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -943,400 +953,385 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Account_Registration</span>
-                <span class="method-start">20440 ms</span>
+                <span class="method-start">7762 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">72425 ms</span>
+                <span class="method-start">23927 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_002_Login</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">73515 ms</span>
+                <span class="method-start">24153 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Login</span>
-                <span class="method-start">79254 ms</span>
+                <span class="method-start">27121 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">106019 ms</span>
+                <span class="method-start">36029 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_003_LoginDDT</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">106315 ms</span>
+                <span class="method-start">36200 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_LoginDDT(onkarpatil1234@gmail.com, Onkar@1234, Valid)</span>
-                <span class="method-start">116932 ms</span>
+                <span class="method-start">49719 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_LoginDDT(onkarpatil1234@gmail.com, Onkar, Invalid)</span>
-                <span class="method-start">126207 ms</span>
+                <span class="method-start">56174 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_LoginDDT(onkarpatil@gmail.com, Onkar@1234, Invalid)</span>
-                <span class="method-start">140829 ms</span>
+                <span class="method-start">68896 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_LoginDDT(onkarpatil@gmail.com, Onkar, Invalid)</span>
-                <span class="method-start">154698 ms</span>
+                <span class="method-start">81803 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">167518 ms</span>
+                <span class="method-start">95992 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_004_Search</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">167719 ms</span>
+                <span class="method-start">101171 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_search</span>
-                <span class="method-start">170432 ms</span>
+                <span class="method-start">104615 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">196568 ms</span>
+                <span class="method-start">125002 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_005_Forgot_Password</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">198512 ms</span>
+                <span class="method-start">125378 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Forgot_Password</span>
-                <span class="method-start">200458 ms</span>
+                <span class="method-start">130133 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">230145 ms</span>
+                <span class="method-start">153992 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_006_AddToCart</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">230462 ms</span>
+                <span class="method-start">154185 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_AddToCart</span>
-                <span class="method-start">233329 ms</span>
+                <span class="method-start">158061 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">251336 ms</span>
+                <span class="method-start">173982 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_007_CompareProduct</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">251844 ms</span>
+                <span class="method-start">174191 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_compareproduct</span>
-                <span class="method-start">254016 ms</span>
+                <span class="method-start">177656 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">276378 ms</span>
+                <span class="method-start">198229 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_008_ProductDisplayPage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">277008 ms</span>
+                <span class="method-start">198604 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_productdisplaypage</span>
-                <span class="method-start">278944 ms</span>
+                <span class="method-start">203100 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">315711 ms</span>
+                <span class="method-start">235868 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_009_WishList</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">318498 ms</span>
+                <span class="method-start">236586 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_wishlist</span>
-                <span class="method-start">321929 ms</span>
+                <span class="method-start">239997 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">368035 ms</span>
+                <span class="method-start">276221 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_010_ShoppingCart</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">369196 ms</span>
+                <span class="method-start">280450 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_ShoppingCart</span>
-                <span class="method-start">371063 ms</span>
+                <span class="method-start">283956 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">449384 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_011_Checkout</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">449623 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">test_Checkout</span>
-                <span class="method-start">452548 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">teadDown</span>
-                <span class="method-start">502632 ms</span>
+                <span class="method-start">336339 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_012_MyAccount</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">502679 ms</span>
+                <span class="method-start">340969 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_MyAccount</span>
-                <span class="method-start">505788 ms</span>
+                <span class="method-start">345167 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">538871 ms</span>
+                <span class="method-start">374690 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_013_MyAccountInformation</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">539309 ms</span>
+                <span class="method-start">374848 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_MyAccountInformation</span>
-                <span class="method-start">541321 ms</span>
+                <span class="method-start">379543 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">568007 ms</span>
+                <span class="method-start">402990 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_014_ChangePassword</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">568155 ms</span>
+                <span class="method-start">403124 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Change_password</span>
-                <span class="method-start">571029 ms</span>
+                <span class="method-start">406974 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">605265 ms</span>
+                <span class="method-start">433836 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_015_AddressBook</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">607737 ms</span>
+                <span class="method-start">434042 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_AddressBook</span>
-                <span class="method-start">610076 ms</span>
+                <span class="method-start">437033 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">641242 ms</span>
+                <span class="method-start">463916 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_016_Order_History</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">641716 ms</span>
+                <span class="method-start">464185 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Order_History</span>
-                <span class="method-start">643723 ms</span>
+                <span class="method-start">466916 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">670986 ms</span>
+                <span class="method-start">494965 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_017_Downloads</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">671275 ms</span>
+                <span class="method-start">495141 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Downloads</span>
-                <span class="method-start">674167 ms</span>
+                <span class="method-start">498737 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">695519 ms</span>
+                <span class="method-start">517862 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_018_RewardsPoint</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">695722 ms</span>
+                <span class="method-start">518054 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_RewardsPoint</span>
-                <span class="method-start">697425 ms</span>
+                <span class="method-start">521435 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">711929 ms</span>
+                <span class="method-start">538500 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_019_ReturnRequest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">712154 ms</span>
+                <span class="method-start">538649 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_ReturnRequest</span>
-                <span class="method-start">714078 ms</span>
+                <span class="method-start">541423 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">731702 ms</span>
+                <span class="method-start">555999 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_020_Transactions</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">731910 ms</span>
+                <span class="method-start">556305 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Transactions</span>
-                <span class="method-start">733739 ms</span>
+                <span class="method-start">559481 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">751482 ms</span>
+                <span class="method-start">579715 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_021_RecurringPayment</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">751871 ms</span>
+                <span class="method-start">580885 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_RecurringPayment</span>
-                <span class="method-start">753763 ms</span>
+                <span class="method-start">583789 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">770396 ms</span>
+                <span class="method-start">598291 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_022_NewsLetter</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">770569 ms</span>
+                <span class="method-start">598444 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_NewsLetter</span>
-                <span class="method-start">773478 ms</span>
+                <span class="method-start">602115 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">795233 ms</span>
+                <span class="method-start">622075 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_023_Affiliate</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">795586 ms</span>
+                <span class="method-start">622234 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Affiliate</span>
-                <span class="method-start">798162 ms</span>
+                <span class="method-start">625099 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">831646 ms</span>
+                <span class="method-start">652832 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_024_ContactUs</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">831850 ms</span>
+                <span class="method-start">653011 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_ContactUs</span>
-                <span class="method-start">835821 ms</span>
+                <span class="method-start">657508 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">867077 ms</span>
+                <span class="method-start">680698 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_025_FooterOption</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">867540 ms</span>
+                <span class="method-start">681002 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_FooterOption</span>
-                <span class="method-start">869299 ms</span>
+                <span class="method-start">743247 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">894393 ms</span>
+                <span class="method-start">743251 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_027_GiftCertificate</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">895686 ms</span>
+                <span class="method-start">743253 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_GiftCertificate</span>
-                <span class="method-start">898986 ms</span>
+                <span class="method-start">748870 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teadDown</span>
-                <span class="method-start">938282 ms</span>
+                <span class="method-start">783977 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -61,10 +61,14 @@ public class TC_023_Affiliate extends BaseClass {
 		logger.info("Selected Payment Method");
 		Thread.sleep(2000);
 		
-		af.chqpayee("05521");
+		af.chqpayee(" omkar partil");
 		logger.info("Clicked On the Cheque Payee");
 		Thread.sleep(2000);
 		
+	/*	af.check_box();
+		logger.info("Cliked On The Agree Button");
+		Thread.sleep(2000); 
+	*/	
 		af.continue_button();
 		logger.info("Clicked On the Continue Button");
 		Thread.sleep(2000);

@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_001_AccountRegistrationPage">
+      <class name="testCases.TC_025_FooterOption">
         <methods>
           <include name="teadDown"/>
           <include name="setup"/>
-          <include name="test_Account_Registration"/>
+          <include name="test_FooterOption"/>
         </methods>
-      </class> <!-- testCases.TC_001_AccountRegistrationPage -->
+      </class> <!-- testCases.TC_025_FooterOption -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

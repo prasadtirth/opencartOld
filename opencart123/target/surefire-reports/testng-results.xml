@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-04T22:19:34 IST" name="Suite" finished-at="2022-09-04T22:20:36 IST" duration-ms="61999">
+  <suite started-at="2022-12-12T10:17:00 IST" name="Suite" finished-at="2022-12-12T10:37:15 IST" duration-ms="1214975">
     <groups>
+      <group name="ddt">
+        <method signature="TC_003_LoginDDT.test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@659a969b]" name="test_LoginDDT" class="testCases.TC_003_LoginDDT"/>
+      </group> <!-- ddt -->
+      <group name="regression">
+        <method signature="TC_001_AccountRegistrationPage.test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@6fe7aac8]" name="test_Account_Registration" class="testCases.TC_001_AccountRegistrationPage"/>
+        <method signature="TC_004_Search.test_search()[pri:0, instance:testCases.TC_004_Search@76908cc0]" name="test_search" class="testCases.TC_004_Search"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@1d119efb]" name="test_Login" class="testCases.TC_002_Login"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_AccountRegistrationPage.test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@6fe7aac8]" name="test_Account_Registration" class="testCases.TC_001_AccountRegistrationPage"/>
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@1d119efb]" name="test_Login" class="testCases.TC_002_Login"/>
+      </group> <!-- master -->
     </groups>
-    <test started-at="2022-09-04T22:19:34 IST" name="Test" finished-at="2022-09-04T22:20:36 IST" duration-ms="61999">
-      <class name="testCases.TC_027_GiftCertificate">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_027_GiftCertificate@6ce139a4]" started-at="2022-09-04T22:19:34 IST" name="setup" finished-at="2022-09-04T22:19:51 IST" duration-ms="16401" status="PASS">
+    <test started-at="2022-12-12T10:17:00 IST" name="Test" finished-at="2022-12-12T10:37:15 IST" duration-ms="1214975">
+      <class name="testCases.TC_022_NewsLetter">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_022_NewsLetter@61230f6a]" started-at="2022-12-12T10:34:18 IST" name="setup" finished-at="2022-12-12T10:34:20 IST" duration-ms="2627" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +32,599 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_GiftCertificate()[pri:0, instance:testCases.TC_027_GiftCertificate@6ce139a4]" started-at="2022-09-04T22:19:51 IST" name="test_GiftCertificate" finished-at="2022-09-04T22:20:35 IST" duration-ms="44185" status="PASS">
+        <test-method signature="test_NewsLetter()[pri:0, instance:testCases.TC_022_NewsLetter@61230f6a]" started-at="2022-12-12T10:34:20 IST" name="test_NewsLetter" finished-at="2022-12-12T10:34:42 IST" duration-ms="21655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NewsLetter -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_022_NewsLetter@61230f6a]" started-at="2022-12-12T10:34:42 IST" name="teadDown" finished-at="2022-12-12T10:34:45 IST" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_022_NewsLetter -->
+      <class name="testCases.TC_012_MyAccount">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_012_MyAccount@6f96c77]" started-at="2022-12-12T10:28:21 IST" name="setup" finished-at="2022-12-12T10:28:29 IST" duration-ms="7624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_MyAccount()[pri:0, instance:testCases.TC_012_MyAccount@6f96c77]" started-at="2022-12-12T10:28:29 IST" name="test_MyAccount" finished-at="2022-12-12T10:29:08 IST" duration-ms="39649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_MyAccount -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_012_MyAccount@6f96c77]" started-at="2022-12-12T10:29:08 IST" name="teadDown" finished-at="2022-12-12T10:29:11 IST" duration-ms="2452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_012_MyAccount -->
+      <class name="testCases.TC_014_ChangePassword">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_014_ChangePassword@3ba9ad43]" started-at="2022-12-12T10:30:09 IST" name="setup" finished-at="2022-12-12T10:30:12 IST" duration-ms="3726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Change_password()[pri:0, instance:testCases.TC_014_ChangePassword@3ba9ad43]" started-at="2022-12-12T10:30:12 IST" name="test_Change_password" finished-at="2022-12-12T10:30:43 IST" duration-ms="30751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Change_password -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_014_ChangePassword@3ba9ad43]" started-at="2022-12-12T10:30:43 IST" name="teadDown" finished-at="2022-12-12T10:30:45 IST" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_014_ChangePassword -->
+      <class name="testCases.TC_004_Search">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004_Search@76908cc0]" started-at="2022-12-12T10:19:29 IST" name="setup" finished-at="2022-12-12T10:19:36 IST" duration-ms="6658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_search()[pri:0, instance:testCases.TC_004_Search@76908cc0]" started-at="2022-12-12T10:19:36 IST" name="test_search" finished-at="2022-12-12T10:20:12 IST" duration-ms="36272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_search -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_004_Search@76908cc0]" started-at="2022-12-12T10:20:12 IST" name="teadDown" finished-at="2022-12-12T10:20:13 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_004_Search -->
+      <class name="testCases.TC_013_MyAccountInformation">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_013_MyAccountInformation@be64738]" started-at="2022-12-12T10:29:11 IST" name="setup" finished-at="2022-12-12T10:29:14 IST" duration-ms="3047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_MyAccountInformation()[pri:0, instance:testCases.TC_013_MyAccountInformation@be64738]" started-at="2022-12-12T10:29:14 IST" name="test_MyAccountInformation" finished-at="2022-12-12T10:29:48 IST" duration-ms="34237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_MyAccountInformation -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_013_MyAccountInformation@be64738]" started-at="2022-12-12T10:29:48 IST" name="teadDown" finished-at="2022-12-12T10:30:09 IST" duration-ms="20686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_013_MyAccountInformation -->
+      <class name="testCases.TC_027_GiftCertificate">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_027_GiftCertificate@470f1802]" started-at="2022-12-12T10:36:27 IST" name="setup" finished-at="2022-12-12T10:36:31 IST" duration-ms="3557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_GiftCertificate()[pri:0, instance:testCases.TC_027_GiftCertificate@470f1802]" started-at="2022-12-12T10:36:31 IST" name="test_GiftCertificate" finished-at="2022-12-12T10:37:10 IST" duration-ms="39771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_GiftCertificate -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_027_GiftCertificate@6ce139a4]" started-at="2022-09-04T22:20:35 IST" name="teadDown" finished-at="2022-09-04T22:20:36 IST" duration-ms="423" status="PASS">
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_027_GiftCertificate@470f1802]" started-at="2022-12-12T10:37:10 IST" name="teadDown" finished-at="2022-12-12T10:37:15 IST" duration-ms="4078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
       </class> <!-- testCases.TC_027_GiftCertificate -->
+      <class name="testCases.TC_019_ReturnRequest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_019_ReturnRequest@4a22f9e2]" started-at="2022-12-12T10:33:15 IST" name="setup" finished-at="2022-12-12T10:33:18 IST" duration-ms="2519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_ReturnRequest()[pri:0, instance:testCases.TC_019_ReturnRequest@4a22f9e2]" started-at="2022-12-12T10:33:18 IST" name="test_ReturnRequest" finished-at="2022-12-12T10:33:34 IST" duration-ms="16418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ReturnRequest -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_019_ReturnRequest@4a22f9e2]" started-at="2022-12-12T10:33:34 IST" name="teadDown" finished-at="2022-12-12T10:33:36 IST" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_019_ReturnRequest -->
+      <class name="testCases.TC_003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@659a969b]" started-at="2022-12-12T10:18:09 IST" name="setup" finished-at="2022-12-12T10:18:14 IST" duration-ms="4882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@659a969b]" started-at="2022-12-12T10:18:20 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-12-12T10:18:39 IST" duration-ms="19164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onkarpatil1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Onkar@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@659a969b]" started-at="2022-12-12T10:18:39 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-12-12T10:18:52 IST" duration-ms="13614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onkarpatil1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Onkar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@659a969b]" started-at="2022-12-12T10:18:52 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-12-12T10:19:09 IST" duration-ms="16314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onkarpatil@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Onkar@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@659a969b]" started-at="2022-12-12T10:19:09 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-12-12T10:19:28 IST" duration-ms="18966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onkarpatil@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Onkar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_003_LoginDDT@659a969b]" started-at="2022-12-12T10:19:28 IST" name="teadDown" finished-at="2022-12-12T10:19:29 IST" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_003_LoginDDT -->
+      <class name="testCases.TC_016_Order_History">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_016_Order_History@48e4374]" started-at="2022-12-12T10:31:33 IST" name="setup" finished-at="2022-12-12T10:31:36 IST" duration-ms="3304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Order_History()[pri:0, instance:testCases.TC_016_Order_History@48e4374]" started-at="2022-12-12T10:31:36 IST" name="test_Order_History" finished-at="2022-12-12T10:32:05 IST" duration-ms="29103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Order_History -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_016_Order_History@48e4374]" started-at="2022-12-12T10:32:05 IST" name="teadDown" finished-at="2022-12-12T10:32:19 IST" duration-ms="13639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_016_Order_History -->
+      <class name="testCases.TC_015_AddressBook">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_015_AddressBook@49d904ec]" started-at="2022-12-12T10:30:45 IST" name="setup" finished-at="2022-12-12T10:30:50 IST" duration-ms="5175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_AddressBook()[pri:0, instance:testCases.TC_015_AddressBook@49d904ec]" started-at="2022-12-12T10:30:50 IST" name="test_AddressBook" finished-at="2022-12-12T10:31:28 IST" duration-ms="37617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AddressBook -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_015_AddressBook@49d904ec]" started-at="2022-12-12T10:31:28 IST" name="teadDown" finished-at="2022-12-12T10:31:33 IST" duration-ms="5135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_015_AddressBook -->
+      <class name="testCases.TC_001_AccountRegistrationPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationPage@6fe7aac8]" started-at="2022-12-12T10:17:00 IST" name="setup" finished-at="2022-12-12T10:17:08 IST" duration-ms="8474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@6fe7aac8]" started-at="2022-12-12T10:17:09 IST" name="test_Account_Registration" finished-at="2022-12-12T10:17:29 IST" duration-ms="20921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Account_Registration -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@6fe7aac8]" started-at="2022-12-12T10:17:29 IST" name="teadDown" finished-at="2022-12-12T10:17:45 IST" duration-ms="15354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationPage -->
+      <class name="testCases.TC_021_RecurringPayment">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_021_RecurringPayment@418e7838]" started-at="2022-12-12T10:34:00 IST" name="setup" finished-at="2022-12-12T10:34:03 IST" duration-ms="2845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_RecurringPayment()[pri:0, instance:testCases.TC_021_RecurringPayment@418e7838]" started-at="2022-12-12T10:34:03 IST" name="test_RecurringPayment" finished-at="2022-12-12T10:34:17 IST" duration-ms="14014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_RecurringPayment -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_021_RecurringPayment@418e7838]" started-at="2022-12-12T10:34:17 IST" name="teadDown" finished-at="2022-12-12T10:34:18 IST" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_021_RecurringPayment -->
+      <class name="testCases.TC_010_ShoppingCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_010_ShoppingCart@5ae50ce6]" started-at="2022-12-12T10:26:26 IST" name="setup" finished-at="2022-12-12T10:26:30 IST" duration-ms="3404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_ShoppingCart()[pri:0, instance:testCases.TC_010_ShoppingCart@5ae50ce6]" started-at="2022-12-12T10:26:30 IST" name="test_ShoppingCart" finished-at="2022-12-12T10:28:16 IST" duration-ms="106025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ShoppingCart -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_010_ShoppingCart@5ae50ce6]" started-at="2022-12-12T10:28:16 IST" name="teadDown" finished-at="2022-12-12T10:28:21 IST" duration-ms="5181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_010_ShoppingCart -->
+      <class name="testCases.TC_005_Forgot_Password">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_Forgot_Password@2473d930]" started-at="2022-12-12T10:20:13 IST" name="setup" finished-at="2022-12-12T10:20:16 IST" duration-ms="3532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Forgot_Password()[pri:0, instance:testCases.TC_005_Forgot_Password@2473d930]" started-at="2022-12-12T10:20:16 IST" name="test_Forgot_Password" finished-at="2022-12-12T10:20:49 IST" duration-ms="33134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Forgot_Password -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_005_Forgot_Password@2473d930]" started-at="2022-12-12T10:20:49 IST" name="teadDown" finished-at="2022-12-12T10:20:51 IST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_005_Forgot_Password -->
+      <class name="testCases.TC_025_FooterOption">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_025_FooterOption@3e2e18f2]" started-at="2022-12-12T10:36:02 IST" name="setup" finished-at="2022-12-12T10:36:05 IST" duration-ms="2650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_FooterOption()[pri:0, instance:testCases.TC_025_FooterOption@3e2e18f2]" started-at="2022-12-12T10:36:05 IST" name="test_FooterOption" finished-at="2022-12-12T10:36:26 IST" duration-ms="21524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_FooterOption -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_025_FooterOption@3e2e18f2]" started-at="2022-12-12T10:36:26 IST" name="teadDown" finished-at="2022-12-12T10:36:27 IST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_025_FooterOption -->
+      <class name="testCases.TC_017_Downloads">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_017_Downloads@3d680b5a]" started-at="2022-12-12T10:32:19 IST" name="setup" finished-at="2022-12-12T10:32:22 IST" duration-ms="3364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Downloads()[pri:0, instance:testCases.TC_017_Downloads@3d680b5a]" started-at="2022-12-12T10:32:22 IST" name="test_Downloads" finished-at="2022-12-12T10:32:53 IST" duration-ms="31054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Downloads -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_017_Downloads@3d680b5a]" started-at="2022-12-12T10:32:53 IST" name="teadDown" finished-at="2022-12-12T10:32:56 IST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_017_Downloads -->
+      <class name="testCases.TC_008_ProductDisplayPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_008_ProductDisplayPage@769f71a9]" started-at="2022-12-12T10:22:18 IST" name="setup" finished-at="2022-12-12T10:22:21 IST" duration-ms="3878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_productdisplaypage()[pri:0, instance:testCases.TC_008_ProductDisplayPage@769f71a9]" started-at="2022-12-12T10:22:21 IST" name="test_productdisplaypage" finished-at="2022-12-12T10:23:18 IST" duration-ms="56583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_productdisplaypage -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_008_ProductDisplayPage@769f71a9]" started-at="2022-12-12T10:23:18 IST" name="teadDown" finished-at="2022-12-12T10:24:45 IST" duration-ms="86553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_008_ProductDisplayPage -->
+      <class name="testCases.TC_006_AddToCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_006_AddToCart@35047d03]" started-at="2022-12-12T10:20:51 IST" name="setup" finished-at="2022-12-12T10:20:54 IST" duration-ms="3335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_AddToCart()[pri:0, instance:testCases.TC_006_AddToCart@35047d03]" started-at="2022-12-12T10:20:54 IST" name="test_AddToCart" finished-at="2022-12-12T10:21:24 IST" duration-ms="30469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AddToCart -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_006_AddToCart@35047d03]" started-at="2022-12-12T10:21:24 IST" name="teadDown" finished-at="2022-12-12T10:21:28 IST" duration-ms="3816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_006_AddToCart -->
+      <class name="testCases.TC_020_Transactions">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_020_Transactions@3c419631]" started-at="2022-12-12T10:33:36 IST" name="setup" finished-at="2022-12-12T10:33:38 IST" duration-ms="2720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Transactions()[pri:0, instance:testCases.TC_020_Transactions@3c419631]" started-at="2022-12-12T10:33:38 IST" name="test_Transactions" finished-at="2022-12-12T10:33:54 IST" duration-ms="15763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Transactions -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_020_Transactions@3c419631]" started-at="2022-12-12T10:33:54 IST" name="teadDown" finished-at="2022-12-12T10:34:00 IST" duration-ms="5833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_020_Transactions -->
+      <class name="testCases.TC_024_ContactUs">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_024_ContactUs@cd3fee8]" started-at="2022-12-12T10:35:30 IST" name="setup" finished-at="2022-12-12T10:35:36 IST" duration-ms="5498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_ContactUs()[pri:0, instance:testCases.TC_024_ContactUs@cd3fee8]" started-at="2022-12-12T10:35:36 IST" name="test_ContactUs" finished-at="2022-12-12T10:36:02 IST" duration-ms="25703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ContactUs -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_024_ContactUs@cd3fee8]" started-at="2022-12-12T10:36:02 IST" name="teadDown" finished-at="2022-12-12T10:36:02 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_024_ContactUs -->
+      <class name="testCases.TC_018_RewardsPoint">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_018_RewardsPoint@4b5d6a01]" started-at="2022-12-12T10:32:56 IST" name="setup" finished-at="2022-12-12T10:32:59 IST" duration-ms="3007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_RewardsPoint()[pri:0, instance:testCases.TC_018_RewardsPoint@4b5d6a01]" started-at="2022-12-12T10:32:59 IST" name="test_RewardsPoint" finished-at="2022-12-12T10:33:15 IST" duration-ms="15869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_RewardsPoint -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_018_RewardsPoint@4b5d6a01]" started-at="2022-12-12T10:33:15 IST" name="teadDown" finished-at="2022-12-12T10:33:15 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_018_RewardsPoint -->
+      <class name="testCases.TC_002_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@1d119efb]" started-at="2022-12-12T10:17:45 IST" name="setup" finished-at="2022-12-12T10:17:49 IST" duration-ms="3941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_Login@1d119efb]" started-at="2022-12-12T10:17:49 IST" name="test_Login" finished-at="2022-12-12T10:18:06 IST" duration-ms="17315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_002_Login@1d119efb]" started-at="2022-12-12T10:18:06 IST" name="teadDown" finished-at="2022-12-12T10:18:09 IST" duration-ms="2905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_002_Login -->
+      <class name="testCases.TC_007_CompareProduct">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_007_CompareProduct@49b0b76]" started-at="2022-12-12T10:21:28 IST" name="setup" finished-at="2022-12-12T10:21:34 IST" duration-ms="5585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_compareproduct()[pri:0, instance:testCases.TC_007_CompareProduct@49b0b76]" started-at="2022-12-12T10:21:34 IST" name="test_compareproduct" finished-at="2022-12-12T10:22:09 IST" duration-ms="34862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_compareproduct -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_007_CompareProduct@49b0b76]" started-at="2022-12-12T10:22:09 IST" name="teadDown" finished-at="2022-12-12T10:22:18 IST" duration-ms="8966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_007_CompareProduct -->
+      <class name="testCases.TC_023_Affiliate">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_023_Affiliate@3c130745]" started-at="2022-12-12T10:34:45 IST" name="setup" finished-at="2022-12-12T10:34:48 IST" duration-ms="3038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Affiliate()[pri:0, instance:testCases.TC_023_Affiliate@3c130745]" started-at="2022-12-12T10:34:48 IST" name="test_Affiliate" finished-at="2022-12-12T10:35:26 IST" duration-ms="38442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Affiliate -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_023_Affiliate@3c130745]" started-at="2022-12-12T10:35:26 IST" name="teadDown" finished-at="2022-12-12T10:35:30 IST" duration-ms="4448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_023_Affiliate -->
+      <class name="testCases.TC_009_WishList">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_009_WishList@4c9f8c13]" started-at="2022-12-12T10:24:45 IST" name="setup" finished-at="2022-12-12T10:24:49 IST" duration-ms="4255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_wishlist()[pri:0, instance:testCases.TC_009_WishList@4c9f8c13]" started-at="2022-12-12T10:24:49 IST" name="test_wishlist" finished-at="2022-12-12T10:25:53 IST" duration-ms="64415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_wishlist -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_009_WishList@4c9f8c13]" started-at="2022-12-12T10:25:53 IST" name="teadDown" finished-at="2022-12-12T10:26:26 IST" duration-ms="33107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_009_WishList -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
